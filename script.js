@@ -13,4 +13,4 @@ var b = 2; // Declaring + Assigning Variable
 
 a = 7; // Assigned 7 to a
 
-b = a // Assigned contents of variable a to varable b 
+b = a // Assigned contents of variable a to variable b 
