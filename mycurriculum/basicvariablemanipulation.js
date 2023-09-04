@@ -31,4 +31,12 @@ const myArray = [1,2,3,4];
 
 console.log(myArray[2]);
 
-console.log
+myArray[2]=7;
+
+console.log(myArray);
+
+const person = {
+    name: "Zai",
+    gender: "female",
+    age: "22"
+}
