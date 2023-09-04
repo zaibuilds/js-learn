@@ -2,8 +2,6 @@ let myName = "Zai";
 
 let myAge = 22;
 
-for ( let i = 0; i < 10; i++){
+console.log(myName);
 
-};
-
-
+console.log(myAge);
