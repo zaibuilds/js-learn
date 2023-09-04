@@ -91,3 +91,6 @@ console.log(typeof mySum);
 
 let mySentence = "Zai is a lover girl, but only sometimes";
 
+let mySentenceArray = mySentence.split(" ");
+
+console.log(mySentenceArray);
