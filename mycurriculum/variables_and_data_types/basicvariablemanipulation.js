@@ -18,7 +18,7 @@ let mySum = numOne + numTwo;
 
 let wordOne = "Cat";
 let wordTwo = "Claws";
-let wordThree = "cutiepie";
+let wordThree ="cutiepie" ;
 
 let myString = wordOne.concat(" ", wordTwo); // Concat method
 
