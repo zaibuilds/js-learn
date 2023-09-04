@@ -22,3 +22,13 @@ let myString = wordOne.concat(" ", wordTwo); // Concat method
 console.log(myString);
 
 console.log(`Mononoke is a ${wordOne}`); // Template literals 
+
+let isStudent = true;
+
+console.log(isStudent);
+
+const myArray = [1,2,3,4];
+
+console.log(myArray[2]);
+
+console.log
