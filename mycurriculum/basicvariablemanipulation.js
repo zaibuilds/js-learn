@@ -38,6 +38,8 @@ myArray[2]=7;
 
 console.log(myArray);
 
+// Declare an object
+
 const person = {
     name: "Zai",
     gender: "female",
@@ -45,11 +47,11 @@ const person = {
 }
 
 // console.log(person.name);
-console.log(person.age);
+console.log(person.age); // Accessing object properties
 
-person.name = "Akeem"
+person.name = "Akeem" // Changing object properties
 
-console.log(person.name);
+console.log(person.name); 
 
 const pi = 3.1459;
 
@@ -58,6 +60,8 @@ let radius = 6;
 let circleArea = pi * radius;
 
 console.log(circleArea);
+
+// Array methods
 
 const myFruits = ["lemon", "orange", "banana", "apple"];
 
@@ -69,11 +73,13 @@ myFruits.pop(); // Pop method removes the last object from an array
 
 console.log(myFruits);
 
+// Checking data types using 'if' statements
+
 let myFriend = "Wez";
 
 if ( typeof myFriend === "string" ) {
     console.log("It's a string!")
-};
+}; 
 
 let mySexuality = undefined;
 
@@ -89,9 +95,51 @@ if (typeof myBae === "number") {
 
 console.log(typeof mySum);
 
+// Split and join methods
+
 let mySentence = "Zai is a lover girl, but only sometimes";
 
 let mySentenceArray = mySentence.split(" ");
 
 console.log(mySentenceArray.join(" "));
 
+// To upper case and to lower case methods
+
+let myBabes = "akeem";
+
+console.log(myBabes.toUpperCase());
+console.log(myBabes.toLowerCase());
+
+// Declaring an empty object and adding properties
+
+// Declaring an empty object
+
+const car = {
+
+};
+
+// Adding properties to an empty object 
+
+car.make = "Tesla";
+car.model = "S1";
+car.year = "2022";
+
+// Testing
+
+console.log(car);
+
+// Deleting properties from an object
+
+delete car.make;
+
+// Testing
+
+console.log(car);
+
+// Creating an array with mixed data types
+
+const myMixedArray = ["Girl",  4, true, undefined, null];
+
+// 
+
+console.log(typeof myMixedArray[0]);
