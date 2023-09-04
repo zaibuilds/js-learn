@@ -1,3 +1,3 @@
-# to-do-list
+# js learn
 
-A simple, aesthetically pleasing, to-do list web app
+learning js
