@@ -140,6 +140,6 @@ console.log(car);
 
 const myMixedArray = ["Girl",  4, true, undefined, null];
 
-// 
+// Testing
 
 console.log(typeof myMixedArray[0]);
