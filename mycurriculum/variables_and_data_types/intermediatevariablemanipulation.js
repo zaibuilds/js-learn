@@ -147,7 +147,7 @@ console.log(mySlice);
 
 const myArray = [];
 
-myArray.push("Vivienne");
+myArray.push("Vivienne", "Westwood");
 
 // Testing
 
@@ -155,5 +155,22 @@ console.log(myArray);
 
 
 
+// 8 Use the splice method to remove elements from an array.
+
+// Create array
+
+const myOtherArray = ["banane", "citron", "limon"]
 
 
+// Remove item one in the array and replace with "chocolat"
+
+myOtherArray.splice(0,1, "chocolat");
+
+
+// Testing
+
+console.log(myOtherArray);
+
+
+
+// 9 Sort an array of numbers in ascending order.
