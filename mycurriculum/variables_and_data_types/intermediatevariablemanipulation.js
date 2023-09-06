@@ -174,3 +174,17 @@ console.log(myOtherArray);
 
 
 // 9 Sort an array of numbers in ascending order.
+
+const myNumberArray = [1,3,2,4];
+
+myNumberArray.sort();
+
+// Testing
+
+console.log(myNumberArray);
+
+
+
+// 10 Find the maximum and minimum values in an array of numbers.
+
+
