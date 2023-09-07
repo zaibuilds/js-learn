@@ -187,4 +187,42 @@ console.log(myNumberArray);
 
 // 10 Find the maximum and minimum values in an array of numbers.
 
+const myOtherNumberArray = [2,5,1,7];
 
+// Method 1 - Using Math.min() and Math.max() methods
+
+let myMinimumValue = Math.min(...myOtherNumberArray);
+let myMaximumValue = Math.max(...myOtherNumberArray);
+
+// Testing
+
+console.log(`The minimum value is ${myMinimumValue}`);
+console.log(`The maximum value is ${myMaximumValue}`);
+
+
+// Method 2 - Iterating through the array
+
+function findMinMax(){
+    let myMin = Infinity;
+    let myMax = -Infinity;
+
+    for (let item of myOtherNumberArray) {
+
+        // Find minimum value
+
+        if (item < myMin) 
+        myMin = item;
+
+        if (item > myMax)
+        myMax = item;
+    }
+
+console.log(`The minimum value in this array is ${myMin}`);
+console.log(`The maximum value in this array is ${myMax}`)
+
+};
+
+findMinMax();
+
+
+// Method 3 - 
