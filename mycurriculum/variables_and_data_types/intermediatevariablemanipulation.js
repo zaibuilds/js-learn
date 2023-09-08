@@ -225,4 +225,4 @@ console.log(`The maximum value in this array is ${myMax}`)
 findMinMax();
 
 
-// Method 3 - 
+// Method 3 - Using Array.reduce() method
