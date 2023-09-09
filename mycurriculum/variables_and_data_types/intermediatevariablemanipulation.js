@@ -249,7 +249,11 @@ console.log(myNewNumberArray);
 
 // 12 - Use the filter function to create a new array with specific values.
 
+let thisNewArrayHere = ['lemon', 'pink', 'umber']
 
+// Filter method
+
+thisNewArrayHere.filter((word) => word.length())
 
 // Testing
 
