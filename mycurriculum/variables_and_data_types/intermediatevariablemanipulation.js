@@ -226,3 +226,31 @@ findMinMax();
 
 
 // Method 3 - Using Array.reduce() method
+
+let myMinValue = myOtherNumberArray.reduce((acc, current) => Math.min(acc, current));
+let myMaxValue = myOtherNumberArray.reduce((acc, current) => Math.max(acc, current));
+
+// Testing
+
+console.log(`The minimum value within this array is ${myMinValue}`);
+console.log(`The maximum value within this array is ${myMaxValue}`);
+
+
+
+// 11 - Use the map function to double the values in an array.
+
+let myNewNumberArray = myOtherNumberArray.map( (x) => x * 2);
+
+// Testing
+
+console.log(myNewNumberArray);
+
+
+
+// 12 - Use the filter function to create a new array with specific values.
+
+
+
+// Testing
+
+console.log(`This is my new array ${thisNewArrayHere}`);
