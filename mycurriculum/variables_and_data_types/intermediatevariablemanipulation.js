@@ -255,7 +255,9 @@ let thisNewArrayHere = [18, 21, 16, 17]
 
 let resultArray = thisNewArrayHere.filter(
     function checkAge {
-        if 
+        if thisNewArrayHere => 18 {
+            console.log("Of age")
+        }
     }
 )
 
