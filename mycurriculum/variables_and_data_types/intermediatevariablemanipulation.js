@@ -249,17 +249,17 @@ console.log(myNewNumberArray);
 
 // 12 - Use the filter function to create a new array with specific values.
 
-let thisNewArrayHere = [18, 21, 16, 17]
+let ages = [16, 21, 18, 19]
 
 // Filter method
 
-let resultArray = thisNewArrayHere.filter(
-    function checkAge {
-        if thisNewArrayHere => 18 {
-            console.log("Of age")
-        }
-    }
-)
+const results = ages.filter(checkAdult)
+
+function checkAdult(age) {
+    return age >= 18;
+}
 
 // Testing
+
+
 
