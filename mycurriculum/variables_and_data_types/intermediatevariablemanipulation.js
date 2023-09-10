@@ -249,12 +249,15 @@ console.log(myNewNumberArray);
 
 // 12 - Use the filter function to create a new array with specific values.
 
-let thisNewArrayHere = ['lemon', 'pink', 'umber']
+let thisNewArrayHere = [18, 21, 16, 17]
 
 // Filter method
 
-thisNewArrayHere.filter((word) => word.length())
+let resultArray = thisNewArrayHere.filter(
+    function checkAge {
+        if 
+    }
+)
 
 // Testing
 
-console.log(`This is my new array ${thisNewArrayHere}`);
