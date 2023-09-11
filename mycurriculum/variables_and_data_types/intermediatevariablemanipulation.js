@@ -261,5 +261,6 @@ function checkAdult(age) {
 
 // Testing
 
+console.log(results);
 
 
