@@ -24,14 +24,14 @@ h1 {
   font-size: 1.75rem;
 }
 
-.TodoWrapper {
+.todoWrapper {
   background: #1A1A40;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
 }
 
-.TodoForm {
+.todoForm {
   width: 100%;
   margin-bottom: 1rem;
 }
@@ -60,7 +60,7 @@ h1 {
   
 }
 
-.Todo {
+.todo {
   display: flex;
   justify-content: space-between;
   align-items: center;
