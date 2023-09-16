@@ -276,3 +276,5 @@ console.log("This is an only child")
         console.log("This child has siblings ")
     }
 }
+
+checkchildSiblings();
