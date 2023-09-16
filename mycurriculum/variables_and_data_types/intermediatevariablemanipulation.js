@@ -267,8 +267,12 @@ console.log(results);
 
 // 13 - Declare a function that takes parameters and returns a value.
 
-let childSiblings = [2];
+let childSiblings = 1;
 
 function checkchildSiblings (childSiblings) {
-    if 
+    if (childSiblings < 2) {
+console.log("This is an only child")
+    } else {
+        console.log("This child has siblings ")
+    }
 }
