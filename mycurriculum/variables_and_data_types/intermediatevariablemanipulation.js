@@ -325,3 +325,9 @@ console.log(magician.hasOwnProperty("familiar")); // returns false
 
 console.log('spells' in magician); // returns true
 console.log('enemies' in magician); // returns false 
+
+
+// Comparing with undefined
+
+console.log(magician.spells.healing); // => 'Alakazam'
+console.log(magician.wand); // => 'undefined'
