@@ -331,3 +331,6 @@ console.log('enemies' in magician); // returns false
 
 console.log(magician.spells.healing); // => 'Alakazam'
 console.log(magician.wand); // => 'undefined'
+
+console.log(magician.spells.healing !== undefined); // => true
+console.log(magician.wand !== undefined); // => false
