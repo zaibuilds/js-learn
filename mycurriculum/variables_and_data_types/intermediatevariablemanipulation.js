@@ -317,3 +317,5 @@ console.log(magician["spells"]["combat"]);
 
 // Method 1 - hasOwnProperty() method
 
+console.log(magician.hasOwnProperty('spells')); // returns true
+console.log(magician.hasOwnProperty("familiar")); // returns false 
