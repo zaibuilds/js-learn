@@ -278,3 +278,29 @@ console.log("This is an only child")
 }
 
 checkchildSiblings();
+
+
+
+// 14 - Use the typeof operator to check the type of a function
+
+let functionType = typeof(checkchildSiblings);
+
+console.log(`This is a ${functionType}`);
+
+
+
+// 15 - Create a nested object with properties and sub-properties
+
+const magician = {
+    pet: "cat",
+    spells: {
+        healing:"Alakazam",
+        combat:"Abracadabra"
+    }
+}
+
+
+
+// 16 - Access nested object properties using dot notation
+
+console.log(`This is a healing spell: ${magician.spells.healing}!`)
