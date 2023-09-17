@@ -315,7 +315,13 @@ console.log(magician["spells"]["combat"]);
 
 // 18 - Check if an object has a specific property 
 
-// Method 1 - hasOwnProperty() method
+// hasOwnProperty() method
 
 console.log(magician.hasOwnProperty('spells')); // returns true
 console.log(magician.hasOwnProperty("familiar")); // returns false 
+
+
+// in operator
+
+console.log('spells' in magician); // returns true
+console.log('enemies' in magician); // returns false 
