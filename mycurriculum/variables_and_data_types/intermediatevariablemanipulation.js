@@ -309,3 +309,4 @@ console.log(`This is a healing spell: ${magician.spells.healing}!`)
 
 // 17 - Access nested object properties using bracket notation
 
+console.log(magician["spells"]["combat"]);
