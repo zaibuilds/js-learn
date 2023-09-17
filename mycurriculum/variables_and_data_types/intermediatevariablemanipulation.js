@@ -334,3 +334,8 @@ console.log(magician.wand); // => 'undefined'
 
 console.log(magician.spells.healing !== undefined); // => true
 console.log(magician.wand !== undefined); // => false
+
+
+
+// 19 - Create a deep copy of an object  
+
