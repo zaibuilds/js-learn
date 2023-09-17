@@ -297,16 +297,23 @@ const magician = {
         healing:"Alakazam",
         combat:"Abracadabra"
     }
-}
+};
 
 
 
 // 16 - Access nested object properties using dot notation
 
-console.log(`This is a healing spell: ${magician.spells.healing}!`)
+console.log(`This is a healing spell: ${magician.spells.healing}!`);
 
 
 
 // 17 - Access nested object properties using bracket notation
 
 console.log(magician["spells"]["combat"]);
+
+
+
+// 18 - Check if an object has a specific property 
+
+// Method 1 - hasOwnProperty() method
+
