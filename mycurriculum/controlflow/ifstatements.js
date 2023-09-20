@@ -85,3 +85,11 @@ if (myString.includes(substr)) {
 
 // 8 - Write an if statement to determine if a year is a leap year
 
+let year = 2023;
+
+if (year % 4 === 0 && year % 100 === 0) {
+    console.log("This is a leap year")
+} else {
+    console.log("This is not a leap year")
+};
+
