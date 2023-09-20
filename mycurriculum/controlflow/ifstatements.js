@@ -93,3 +93,14 @@ if (year % 4 === 0 && year % 100 === 0) {
     console.log("This is not a leap year")
 };
 
+// 9 - Write an if statement to check if a string is empty
+
+let thisString;
+
+if (thisString === undefined) {
+    console.log("This string is empty")
+} else {
+    console.log("This string is not empty")
+};
+
+
