@@ -18,3 +18,5 @@ for (let num = 2; num <= 100; num++) {
 }
 
 console.log("The total sum of even numbers from 1 to 100 equals", totalSum);
+
+// 3 - 
