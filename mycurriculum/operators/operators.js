@@ -34,3 +34,10 @@ let mySquareRoot = Math.sqrt(4);
 
 console.log(mySquareRoot);
 
+// 7 - Calculate the square of a number 
+
+let mySquare = Math.pow(4);
+
+console.log(mySquare);
+
+// 8 - 
