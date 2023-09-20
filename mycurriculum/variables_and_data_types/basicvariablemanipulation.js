@@ -23,3 +23,4 @@ let wordTwo = "milkshake";
 let mySentence = wordOne.concat(" ", wordTwo);
 
 console.log(mySentence);
+

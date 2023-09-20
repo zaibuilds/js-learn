@@ -72,3 +72,16 @@ if (myUserName.length > 6) {
     console.log("Please create a username longer than 6 characters")
 };
 
+// 7 - Write an if statement to check if a string contains the word "JavaScript"
+
+let myString = "C+ is a great beginner programme language";
+let substr = "JavaScript";
+
+if (myString.includes(substr)) {
+    console.log("This contains the word JavaScript")
+} else {
+    console.log("This does not include the word JvaaScript")
+};
+
+// 8 - Write an if statement to determine if a year is a leap year
+
