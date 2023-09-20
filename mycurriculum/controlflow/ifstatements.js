@@ -95,9 +95,20 @@ if (year % 4 === 0 && year % 100 === 0) {
 
 // 9 - Write an if statement to check if a string is empty
 
-let thisString;
+let thisString= "";
 
-if (thisString === undefined) {
+// Method 1 - Trim method 
+// The trim method removes white space from
+
+if (thisString.trim() === "") {
+    console.log("This string is empty")
+} else {
+    console.log("This string is not empty")
+};
+
+// Method 2 - Using .length method
+
+if (thisString.length === 0) {
     console.log("This string is empty")
 } else {
     console.log("This string is not empty")
