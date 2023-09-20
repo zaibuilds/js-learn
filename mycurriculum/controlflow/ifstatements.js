@@ -46,3 +46,29 @@ if (specialNumber > 0) {
     }
 };
 
+// 5 - Write an if-else if-else statement to determine the grade based on a given score
+
+let studentGrade= 74;
+
+if (studentGrade >= 90) {
+    console.log("This student is graded A")
+} else if (studentGrade >= 80) {
+    console.log("This student is graded B")
+} else if (studentGrade >= 70) {
+    console.log("This student is graded C")
+} else if (studentGrade >= 60) {
+    console.log("This student is graded D")
+} else {
+    console.log("This student is graded F")
+};
+
+// 6 - Write an if statement to check if a user's username is at least 6 characters long
+
+let myUserName = "zai";
+
+if (myUserName.length > 6) {
+    console.log("This username is long enough")
+} else {
+    console.log("Please create a username longer than 6 characters")
+};
+
