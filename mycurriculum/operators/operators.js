@@ -29,3 +29,8 @@ let myRemainder = 28 % 3;
 console.log(myRemainder);
 
 // 6 - Calculate the square root of a number
+
+let mySquareRoot = Math.sqrt(4);
+
+console.log(mySquareRoot);
+
