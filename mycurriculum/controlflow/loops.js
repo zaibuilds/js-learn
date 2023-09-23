@@ -70,3 +70,9 @@ function findFactorial(number) {
      if (attempts === 3) {
         console.log("Your account has been temporarily locked, please try again later.")
      }
+
+     // 5 - Write a for loop to print the elements of an array.
+
+     const catArray = ["Mononoke", "Nunu", "Chihiro"];
+
+     console.log()
