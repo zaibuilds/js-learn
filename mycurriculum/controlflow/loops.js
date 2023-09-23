@@ -50,29 +50,49 @@ function findFactorial(number) {
 
     // 4 - Write a do-while loop to ask the user for a password until they enter the correct one.
 
-    const myPassword = "PrettyLittleBird22";
-    let userInput;
-    let attempts = 0;
+    // const myPassword = "PrettyLittleBird22";
+    // let userInput;
+    // let attempts = 0;
 
-    do {
-        userInput = prompt("Please enter your password");
+    // do {
+    //     userInput = prompt("Please enter your password");
 
-        if (userInput === myPassword) {
-            console.log("Your password is correct, continue your sign in");
-            break;  // Exit the loop when the correct password is inputted
-        } else {
-            attempts++;
-            console.log("Your password is incorrect, please try again");
-        }
+    //     if (userInput === myPassword) {
+    //         console.log("Your password is correct, continue your sign in");
+    //         break;  // Exit the loop when the correct password is inputted
+    //     } else {
+    //         attempts++;
+    //         console.log("Your password is incorrect, please try again");
+    //     }
 
-    } while (attempts < 3);
+    // } while (attempts < 3);
 
-     if (attempts === 3) {
-        console.log("Your account has been temporarily locked, please try again later.")
-     }
+    //  if (attempts === 3) {
+    //     console.log("Your account has been temporarily locked, please try again later.")
+    //  }
 
      // 5 - Write a for loop to print the elements of an array.
 
      const catArray = ["Mononoke", "Nunu", "Chihiro"];
 
-     console.log()
+    //  console.log(catArray[0]); // Testing
+
+     for (
+        let i = 0;
+        i < catArray.length;
+        i++
+     ) {
+        console.log(catArray[i]);
+     };
+
+     // 6 - Write a for loop to find the largest number in an array.
+
+     const myNumberArray = [7,8,6,21];
+
+     for (
+        let i = 0;
+        i < Math.max(myNumberArray);
+        i++
+     ) {
+console.log([i]);
+     };
