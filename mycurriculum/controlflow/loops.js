@@ -97,3 +97,20 @@ function findFactorial(number) {
 console.log([i]);
      };
 
+// Sample array of numbers
+const numbers = [10, 5, 8, 17, 3, 21, 42];
+
+// Initialize a variable to store the largest number
+let largestNumber = numbers[0]; // Assuming the first number is the largest initially
+
+// Iterate through the array using a for loop
+for (let i = 1; i < numbers.length; i++) {
+  // Compare the current element with the largestNumber
+  if (numbers[i] > largestNumber) {
+    // If the current element is larger, update the largestNumber
+    largestNumber = numbers[i];
+  }
+}
+
+// The largestNumber variable now contains the largest number in the array
+console.log("The largest number is:", largestNumber);
