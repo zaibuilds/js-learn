@@ -97,6 +97,7 @@ function findFactorial(number) {
 console.log([i]);
      };
 
+     // ChatGPT Example
 // Sample array of numbers
 const numbers = [10, 5, 8, 17, 3, 21, 42];
 
@@ -114,3 +115,20 @@ for (let i = 1; i < numbers.length; i++) {
 
 // The largestNumber variable now contains the largest number in the array
 console.log("The largest number is:", largestNumber);
+
+// My second attempt
+
+// Create array
+const numbersArray = [1,4,2,3];
+// Initialise variable to store the largest number
+let theLargestNumber = numbersArray[0];
+// Iterate through numbersArray using a for loop
+for (let i = 1; i < numbersArray.length; i++) {
+    // Compare the current element with theLargestNumber
+    if (numbersArray[i] > theLargestNumber) {
+        // If the current element is larger, updated theLargestNumber
+        theLargestNumber = numbersArray[i];
+    }
+}
+
+console.log(`The largest number in this array is ${theLargestNumber}`);
