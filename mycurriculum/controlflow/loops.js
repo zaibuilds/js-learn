@@ -96,3 +96,5 @@ function findFactorial(number) {
      ) {
 console.log([i]);
      };
+
+     
