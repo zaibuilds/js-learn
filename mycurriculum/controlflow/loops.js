@@ -88,7 +88,7 @@ function findFactorial(number) {
      // 6 - Write a for loop to find the largest number in an array.
 
      const myNumberArray = [7,8,6,21];
-
+     // My first attempt
      for (
         let i = 0;
         i < Math.max(myNumberArray);
@@ -97,4 +97,3 @@ function findFactorial(number) {
 console.log([i]);
      };
 
-     
