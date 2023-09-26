@@ -139,3 +139,8 @@ console.log(`The largest number in this array is ${theLargestNumber}`);
 
 const newNumberArray = [1,2,3,4];
 
+// Create a variable to store the sum of the numbers
+
+let sum = 0;
+
+
