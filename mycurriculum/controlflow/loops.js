@@ -132,3 +132,10 @@ for (let i = 1; i < numbersArray.length; i++) {
 }
 
 console.log(`The largest number in this array is ${theLargestNumber}`);
+
+// 7 - Write a for loop to calculate the average of numbers in an array
+
+// Create array
+
+const newNumberArray = [1,2,3,4];
+
