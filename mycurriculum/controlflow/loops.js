@@ -143,4 +143,10 @@ const newNumberArray = [1,2,3,4];
 
 let sum = 0;
 
-// 
+// Iterate through the array and calculate the sum of numbers
+
+for (let i = 0; i < newNumberArray.length; i++) {
+    sum += newNumberArray[i];
+};
+
+// Calculate  
