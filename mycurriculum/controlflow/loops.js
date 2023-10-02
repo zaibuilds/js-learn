@@ -149,4 +149,8 @@ for (let i = 0; i < newNumberArray.length; i++) {
     sum += newNumberArray[i];
 };
 
-// Calculate  
+// Calculate average of the numbers 
+
+let answer = sum / 4;
+
+console.log(`The answer is ${answer}`);
