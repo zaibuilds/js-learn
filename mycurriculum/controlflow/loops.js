@@ -154,3 +154,8 @@ for (let i = 0; i < newNumberArray.length; i++) {
 let answer = sum / 4;
 
 console.log(`The answer is ${answer}`);
+
+// 8 - Write a for loop to count the number of vowels in a string.
+
+let myString = "Zaina is beautiful";
+
