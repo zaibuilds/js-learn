@@ -220,3 +220,20 @@ return numberOfVowels;
 const myInputString = "Zai is perfect!";
 const myLatestResult = countVowels(myInputString);
 console.log(`Number of vowels: ${myLatestResult}`);
+
+// 9 - Write a for loop to reverse a string.
+
+// My first attempt 
+
+// function reverseString (str) {
+  
+//   for (let i = 0; i > str.length; i--) {
+//     console.log(i);
+//   }
+
+// }
+
+// let myString = "Zai is a clown";
+// reverseString(myString);
+
+// 
