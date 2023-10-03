@@ -186,4 +186,37 @@ function countVowels(str) {
   const myResult = countVowels(inputString);
   console.log(`Number of vowels: ${myResult}`);
   
+// My attempt
 
+function countVowelsin(str) {
+
+// Initialise a variable to count the vowels
+
+let numberOfVowels = 0;
+
+// Convert the string to lowercase to handle both upper and lowercase vowels
+
+str = str.toLowerCase();
+
+// Define an array of vowels
+
+const arrayOfVowels = ['a', 'e', 'i', 'o', 'u'];
+
+// Loop through each character in the string
+
+for (let i = 0; i < str.length; i++) {
+// Check if the character is a vowel
+if (arrayOfVowels.includes(str[i])) {
+    numberOfVowels++;
+  }
+
+}
+
+return numberOfVowels;
+
+}
+
+// Usage
+const myInputString = "Zai is perfect!";
+const myLatestResult = countVowels(myInputString);
+console.log(`Number of vowels: ${myLatestResult}`);
