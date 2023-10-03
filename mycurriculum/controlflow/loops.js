@@ -137,7 +137,7 @@ console.log(`The largest number in this array is ${theLargestNumber}`);
 
 // Create array
 
-const newNumberArray = [1,2,3,4];
+const newNumberArray = [2,5,7,8];
 
 // Create a variable to store the sum of the numbers
 
@@ -151,11 +151,39 @@ for (let i = 0; i < newNumberArray.length; i++) {
 
 // Calculate average of the numbers 
 
-let answer = sum / 4;
+let average = sum / 4;
 
-console.log(`The answer is ${answer}`);
+console.log(`The average is ${average}`);
 
 // 8 - Write a for loop to count the number of vowels in a string.
 
-let myString = "Zaina is beautiful";
+// ChatGPT example
+
+function countVowels(str) {
+    // Initialize a variable to keep track of the vowel count
+    let vowelCount = 0;
+  
+    // Convert the string to lowercase to handle both uppercase and lowercase vowels
+    str = str.toLowerCase();
+  
+    // Define an array of vowels
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+  
+    // Loop through each character in the string
+    for (let i = 0; i < str.length; i++) {
+      // Check if the current character is a vowel
+      if (vowels.includes(str[i])) {
+        vowelCount++;
+      }
+    }
+  
+    // Return the total vowel count
+    return vowelCount;
+  }
+  
+  // Example usage:
+  const inputString = "Hello, World!";
+  const myResult = countVowels(inputString);
+  console.log(`Number of vowels: ${myResult}`);
+  
 
