@@ -18,7 +18,12 @@ const randomPerson ={
 
 console.log(randomPerson.name);
 
-// 4 - Access the properties of an object using bracet notation
+// 4 - Access the properties of an object using bracket notation
 
 console.log(randomPerson["age"]);
 
+// Update the value of a property in an object 
+
+randomPerson.age = 23;
+
+console.log(randomPerson.age);
