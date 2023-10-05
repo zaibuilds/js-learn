@@ -27,3 +27,5 @@ console.log(randomPerson["age"]);
 randomPerson.age = 23;
 
 console.log(randomPerson.age);
+
+randomPerson.city = "LA";
