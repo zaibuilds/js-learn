@@ -8,5 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const paragraph = document.getElementById("myParagraph").innerHTML="I changed the text :-)";
    
+    const div = document.getElementById("myDiv");
+
+    
 
 });
