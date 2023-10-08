@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Button clicked!");
     });
 
-    const paragraph = document.getElementById("myParagraph");
-    
+    const paragraph = document.getElementById("myParagraph").innerHTML="I changed the text :-)";
+   
 
 });
