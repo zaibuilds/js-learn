@@ -36,10 +36,13 @@ myHeading.style.visibility = "visible";
 const actionButton = document.getElementById('myActionButton');
 
 actionButton.addEventListener("click", function(){
+
     const hiddenElement = document.getElementById('myHiddenElement');
+
    if (hiddenElement.style.visibility === "hidden") {
     hiddenElement.style.visibility = "visible"
    } else {
     hiddenElement.style.visibility = "hidden"
    }
+   
 });
