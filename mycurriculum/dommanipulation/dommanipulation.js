@@ -29,3 +29,17 @@ mySpan.style.visibility = "hidden";
 var myHeading = document.getElementById('myHeading');
 
 myHeading.style.visibility = "visible";
+
+
+// 6 - Toggle the visibility of an HTML element when a button is clicked.
+
+const actionButton = document.getElementById('myActionButton');
+
+actionButton.addEventListener("click", function(){
+    const hiddenElement = document.getElementById('myHiddenElement');
+   if (hiddenElement.style.visibility === "hidden") {
+    hiddenElement.style.visibility = "visible"
+   } else {
+    hiddenElement.style.visibility = "hidden"
+   }
+});
