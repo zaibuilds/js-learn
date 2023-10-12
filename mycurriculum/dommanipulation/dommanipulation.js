@@ -56,10 +56,10 @@ addButton.addEventListener("click",
 
 function appendLi() {
     var myUnorderedList = document.getElementById("myUnorderedList");
-    var myUnorderedListItem = document.createElement("li");
-    var text = document.createTextNode("3D");
-    myUnorderedListItem.appendChild(text);
-    myUnorderedList.appendChild(myUnorderedListItem);
+    var myUnorderedListItem = document.createElement("li"); // Creating a list item
+    var text = document.createTextNode("3D"); // Creating a text node for the new list item
+    myUnorderedListItem.appendChild(text); // Adding the text node to the list item  
+    myUnorderedList.appendChild(myUnorderedListItem); // Adding the list item to the unordered list
 }
 );
 
