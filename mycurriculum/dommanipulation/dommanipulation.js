@@ -49,5 +49,17 @@ actionButton.addEventListener("click", function(){
 
 // 7 - Add a new list item to an existing unordered list using JavaScript.
 
-let myUnorderedList = document.getElementById('myUnorderedList');
+const addButton = document.getElementById('triggerAdd');
+
+
+addButton.addEventListener("click", 
+
+function appendLi() {
+    var myUnorderedList = document.getElementById("myUnorderedList");
+    var myUnorderedListItem = document.createElement("li");
+    var text = document.createTextNode("3D");
+    myUnorderedListItem.appendChild(text);
+    myUnorderedList.appendChild(myUnorderedListItem);
+}
+);
 
