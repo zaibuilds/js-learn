@@ -93,4 +93,8 @@ let myNiceVariable = "Dragon Quest"
 console.log(`My favourite RPG game is ${myNiceVariable}`);
 };
 
-myNiceFunction();
+myNiceFunction(); // The variable is accessible
+
+// Closures Exercises
+
+// 1 - Create a function that returns another function. What happens when you call the outer function and the inner function?
