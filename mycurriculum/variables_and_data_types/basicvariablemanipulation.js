@@ -66,3 +66,9 @@ console.log(person.name); // Expected output = Zai
 
 console.log(person.age); // Dot notation
 console.log(person['age']); // Bracket notation
+
+// 11 - Change the value of the name property in the person object
+
+person.name = 'Akeem';
+
+console.log(person.name); // Expected output = Akeem
