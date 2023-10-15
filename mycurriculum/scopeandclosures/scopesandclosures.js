@@ -85,3 +85,12 @@ function myCoolFunction () {
 };
 
 // console.log(myRandomVariable); - Output error says myRandomVariable is not defined
+
+// 10 - Create a variable inside a block (using {}) and try to access it inside the block. Is it accessible?
+
+function myNiceFunction () {
+let myNiceVariable = "Dragon Quest"
+console.log(`My favourite RPG game is ${myNiceVariable}`);
+};
+
+myNiceFunction();
