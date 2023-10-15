@@ -52,3 +52,16 @@ console.log(`The new variable is ${myArray[2]}`);
 
 console.log(myArray); // Expected output = 2,4,8,7 
 
+// 9 - Declare an object with properties name, age and gender
+
+const person = {
+    name: 'Zai',
+    age: '22',
+    gender: 'female'
+};
+
+console.log(person.name); // Expected output = Zai
+
+// 10 - Access the age property of the person object
+
+console.log(person.age);
