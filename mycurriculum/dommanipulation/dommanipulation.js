@@ -77,3 +77,5 @@ li.appendChild(document.createTextNode("New List Item")); // Specify the text wi
 
 // Append the unordered list element
 ul.appendChild(li);
+
+// 8 - 
