@@ -9,7 +9,7 @@ let myAge = 22;
 
 // 3 - Calculate the sum of two numbers and store it in a variable
 
-let mySum = 2 * 10;
+let mySum = 2 + 10;
 
 // Testing
 
