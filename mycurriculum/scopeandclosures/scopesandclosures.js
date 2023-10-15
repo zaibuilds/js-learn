@@ -61,4 +61,20 @@ introduceMyself(); // The variable in the function is used
 
 console.log(myName); // The global variable is used
 
+// 8 - Define a function inside another function and try to access variables from both functions.
 
+function myNestedFunction () {
+    let myFavouriteFood = "pizza";
+    console.log(`My favourite food is ${myFavouriteFood}`);
+    function myBabyFunction () {
+        let myFavouriteDrink = "appletiser";
+        console.log(`My favourite drink is ${myFavouriteDrink}`);
+    }
+}
+
+myNestedFunction(); // Runs as expected
+myBabyFunction(); // Returns error 'myBabyFunction' is not defined
+
+console.log(myFavouriteFood); // Output error says 'myFavouriteFood' is not defined
+console.log(myFavouriteDrink); // Output error says 'myFavouriteDrink' is not defined
+ 
