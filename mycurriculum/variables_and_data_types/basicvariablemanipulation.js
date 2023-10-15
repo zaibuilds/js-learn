@@ -64,4 +64,5 @@ console.log(person.name); // Expected output = Zai
 
 // 10 - Access the age property of the person object
 
-console.log(person.age);
+console.log(person.age); // Dot notation
+console.log(person['age']); // Bracket notation
