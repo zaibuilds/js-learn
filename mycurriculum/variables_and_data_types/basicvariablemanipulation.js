@@ -42,6 +42,13 @@ const myArray = [2,4,5,7];
 
 // 7 - Access the third element of myArray
 
-console.log (myArray[2]);
+console.log(myArray[2]);
 
 // 8 - Modify the second element of myArray
+
+myArray.splice(2, 1, 8); // Replaces 1 element at index 2
+
+console.log(`The new variable is ${myArray[2]}`);
+
+console.log(myArray); // Expected output = 2,4,8,7 
+
