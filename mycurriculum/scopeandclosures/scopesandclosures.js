@@ -30,7 +30,7 @@ function myThirdFunction () {
     var name = "Zai";
 }
 
-// console.log(`My name is ${name}`); // Output error says 'name' is not defined
+// console.log(`My name is ${name}`); // Output error says name is not defined
 
 // 5 - Create a variable inside a function using the 'let' keyword and try to access it outside the function
 
@@ -38,7 +38,7 @@ function myNameFunction () {
     let myName = "Zai";
 }
 
-// console.log(`My name is ${myName}`); - Output error says 'myName' is not defined
+// console.log(`My name is ${myName}`); - Output error says myName is not defined
 
 // 6 - Create a variable inside a function using the 'const' keyword and try to access it outside the function
 
@@ -46,7 +46,7 @@ function myRandomFunction () {
     const myHobby = "coding";
 }
 
-// console.log(`My favourite hobby at the moment is ${myHobby}`); - Output error says 'myHobby' is not defined
+// console.log(`My favourite hobby at the moment is ${myHobby}`); - Output error says myHobby is not defined
 
 // 7 - Create two variables with the same name, one in the global scope and one inside a function. What happens when you access that variable?
 
@@ -73,8 +73,15 @@ function myNestedFunction () {
 }
 
 myNestedFunction(); // Runs as expected
-myBabyFunction(); // Returns error 'myBabyFunction' is not defined
+// myBabyFunction(); // Returns error 'myBabyFunction' is not defined
 
-console.log(myFavouriteFood); // Output error says 'myFavouriteFood' is not defined
-console.log(myFavouriteDrink); // Output error says 'myFavouriteDrink' is not defined
+// console.log(myFavouriteFood); // Output error says myFavouriteFood is not defined
+// console.log(myFavouriteDrink); // Output error says myFavouriteDrink is not defined
  
+// 9 - Create a variable inside a block (using {}) and try to access it outside the block.
+
+function myCoolFunction () {
+    let myRandomVariable = 5;
+};
+
+// console.log(myRandomVariable); - Output error says myRandomVariable is not defined
