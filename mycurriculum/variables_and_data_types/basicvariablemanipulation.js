@@ -95,4 +95,7 @@ const myFruits = ['apple', 'banana', 'cherry', 'kiwi', 'pineapple'];
 myFruits.push('grapes');
 console.log(myFruits) // Expected output is 'apple, banana, cherry, kiwi, pineapple, grapes'
 
-//
+// 17 - Remove the last fruit from the fruits array.
+
+myFruits.pop();
+console.log(myFruits); // Expected output is 'apple, banana, cherry, kiwi, pineapple'
