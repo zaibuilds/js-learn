@@ -104,3 +104,17 @@ console.log(myFruits); // Expected output is 'apple, banana, cherry, kiwi, pinea
 
 let myString = 'Stringzino';
 console.log(typeof myString); // Expected output string
+
+// 19 - Check if a variable is of type undefined
+
+let myUndefinedVariable;
+console.log(typeof myUndefinedVariable); // Expected output undefined 
+
+// 20 - Check if a variable is a number
+
+let myNumberVariable = 3;
+console.log(typeof myNumberVariable);
+
+// 21 - Use the typeof operator to determine the type of a variable
+
+console.log(typeof isStudent);
