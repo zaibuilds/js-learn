@@ -99,3 +99,8 @@ console.log(myFruits) // Expected output is 'apple, banana, cherry, kiwi, pineap
 
 myFruits.pop();
 console.log(myFruits); // Expected output is 'apple, banana, cherry, kiwi, pineapple'
+
+// 18 - Check if a variable is of type string
+
+let myString = 'Stringzino';
+console.log(typeof myString); // Expected output string
