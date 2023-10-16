@@ -84,4 +84,15 @@ let radius = 3;
 // 14 - Calculate the area of a circle using PI and radius and store it in a variable.
 
 let circleArea = radius * pi;
-console.log(`The circle area is ${circleArea}`) // Expected output 'The circle area is 
+console.log(`The circle area is ${circleArea}`) // Expected output 'The circle area is 9.424769999999999'
+
+// 15 - Create an array of fruits with several fruit names
+
+const myFruits = ['apple', 'banana', 'cherry', 'kiwi', 'pineapple'];
+
+// 16 - Add a new fruit to the fruits array
+
+myFruits.push('grapes');
+console.log(myFruits) // Expected output is 'apple, banana, cherry, kiwi, pineapple, grapes'
+
+//
