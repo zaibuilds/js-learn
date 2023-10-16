@@ -118,3 +118,9 @@ console.log(typeof myNumberVariable);
 // 21 - Use the typeof operator to determine the type of a variable
 
 console.log(typeof isStudent);
+
+// 22 - Declare a variable sentence and assign a string to it 
+
+let mySecondSentence = 'Zai does her best';
+
+// 23 -
