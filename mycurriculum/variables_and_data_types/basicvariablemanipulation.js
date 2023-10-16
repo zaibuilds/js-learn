@@ -72,3 +72,16 @@ console.log(person['age']); // Bracket notation
 person.name = 'Akeem';
 
 console.log(person.name); // Expected output = Akeem
+
+// 12 - Declare a constant variable PI and assign it the value of π (3.14159).
+
+const pi = 3.14159;
+
+// 13 - Declare a variable radius and assign a number to it.
+
+let radius = 3;
+
+// 14 - Calculate the area of a circle using PI and radius and store it in a variable.
+
+let circleArea = radius * pi;
+console.log(`The circle area is ${circleArea}`) // Expected output 'The circle area is 
