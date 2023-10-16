@@ -123,4 +123,5 @@ console.log(typeof isStudent);
 
 let mySecondSentence = 'Zai does her best';
 
-// 23 -
+// 23 - Split the sentence into an array of words
+
