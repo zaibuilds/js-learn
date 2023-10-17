@@ -125,3 +125,33 @@ let mySecondSentence = 'Zai does her best';
 
 // 23 - Split the sentence into an array of words
 
+let mySentenceArray = mySecondSentence.split(' '); // Separating the string by spaces and placing result into a new variable
+console.log(mySentenceArray); // Logging new variable
+
+// 24 - Join the words in the array into a single string
+
+let myJoinedSentence = mySentenceArray.join(' '); // Joining the string and providing spaces between words
+console.log(myJoinedSentence); // Logging new joined string
+
+// 25 - Convert a string to uppercase
+
+console.log(myJoinedSentence.toUpperCase());
+
+// 26 - Convert a string to lowercase
+
+console.log(myJoinedSentence.toLowerCase());
+
+// 27 - Declare an empty object car and add properties for make, model and year
+
+const car = {
+
+};
+
+car.make = 'Tesla';
+car.model = 'S1';
+car.year = '2021';
+
+console.log(car.make);
+console.log(car.model);
+console.log(car.year);
+
