@@ -368,8 +368,19 @@ console.log(user);
 const petKitten = {
     name: 'Matteo',
     color: 'orange',
-    breed: 'Tabby'
+    breed: 'Tabby',
+
+    meow() {
+        console.log("Meow!");
+    }
+
 };
 
+console.log(petKitten);
+
 let secondPetKitten = Object.assign({}, petKitten); // Copies petKitten into secondPetKitten
+
+secondPetKitten.name = 'Jose';
+
+console.log(secondPetKitten.meow);
 
