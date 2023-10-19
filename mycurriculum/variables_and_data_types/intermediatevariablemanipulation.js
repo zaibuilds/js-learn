@@ -378,7 +378,7 @@ const petKitten = {
 
 console.log(petKitten);
 
-let secondPetKitten = Object.assign({}, petKitten); // Copies petKitten into secondPetKitten
+let secondPetKitten = Object.assign({}, petKitten); // Copies petKitten into secondPetKitten including meow function
 
 secondPetKitten.name = 'Jose';
 
