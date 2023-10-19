@@ -340,6 +340,7 @@ console.log(magician.wand !== undefined); // => false
 // 19 - Create a deep copy of an object  
 
 // Copy an Object With JSON.stringify() and JSON.parse()
+// This method deep copies nested objects but doesn't copy functions
 
 
 const user = {
@@ -361,9 +362,11 @@ userClone.age = '28;'
 console.log(userClone);
 console.log(user);
 
-// The downside to using this method is that it doesn't copy functions
+
 
 // Copy an Object With Object.assign()
+// This method copies functions but doesn't deep copy nested objects 
+
 
 const petKitten = {
     name: 'Matteo',
@@ -391,8 +394,52 @@ secondPetKitten.greeting = function meow() {
 
 console.log(secondPetKitten.greeting());
 
-// This method copies functions 
 
+// Spread Operator
+// Simple syntax but doesn't deep copy nested objects 
 
-// 
+const petPuppy = {
+    name:'Chandler',
+    colour: 'blonde',
+    breed: 'Labrador'
+};
 
+const petPuppyClone = {...petPuppy}
+
+console.log(petPuppyClone);
+
+// The spread operator only makes a partial copy so any object with a nested object will not be deep copied
+
+// To make a complete deep copy we have to write some additional code
+
+// Consider the same petPuppy object but with a nested object
+
+let anotherPetPuppy = {
+    name: 'Chance',
+    breed: 'Husky',
+    colour: {
+        eyes: 'brown',
+        fur: 'black'
+    }
+}
+
+let anotherPetPuppyClone = {...anotherPetPuppy}
+
+/*To avoid mutating the original object, which is anotherPetPuppy, we must spread the copy object 
+before making direct changes to any of its properties. */
+
+// For any nested object, we must also spread that sub-object before making changes to any of its properties:
+
+anotherPetPuppyClone = {
+    ...anotherPetPuppyClone, // Spreading object prior to updating properties
+    name:'Joey', // Mutated top level property
+    breed: 'Chihuahua', // Mutated top level property
+    colour: {
+        ...anotherPetPuppyClone.colour, // Spreading the sub-object prior to updating properties
+        eyes:'blue', // Mutated sub-property
+        fur: 'white' // Mutated sub-property
+    }
+}
+
+console.log(anotherPetPuppy);
+console.log(anotherPetPuppyClone);
