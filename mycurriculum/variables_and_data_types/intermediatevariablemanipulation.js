@@ -447,3 +447,14 @@ console.log(anotherPetPuppyClone);
 
 // 20 - Declare an array of objects and sort them based on a property
 
+const myUsers = [ 
+
+    
+
+
+
+
+
+
+
+]
