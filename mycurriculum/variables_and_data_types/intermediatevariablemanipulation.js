@@ -391,3 +391,8 @@ secondPetKitten.greeting = function meow() {
 
 console.log(secondPetKitten.greeting());
 
+// This method copies functions 
+
+
+// 
+
