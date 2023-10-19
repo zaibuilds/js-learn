@@ -363,3 +363,13 @@ console.log(user);
 
 // The downside to using this method is that it doesn't copy functions
 
+// Copy an Object With Object.assign()
+
+const petKitten = {
+    name: 'Matteo',
+    color: 'orange',
+    breed: 'Tabby'
+};
+
+let secondPetKitten = Object.assign({}, petKitten); // Copies petKitten into secondPetKitten
+
