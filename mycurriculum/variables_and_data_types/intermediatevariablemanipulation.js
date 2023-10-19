@@ -339,3 +339,27 @@ console.log(magician.wand !== undefined); // => false
 
 // 19 - Create a deep copy of an object  
 
+// Copy an Object With JSON.stringify() and JSON.parse()
+
+
+const user = {
+    name: 'Zai',
+    age: '22',
+    role: 'Techie'
+};
+
+let userClone = JSON.parse(JSON.stringify(user));
+
+console.log(user);
+console.log(userClone);
+
+// Mutating clone object
+
+userClone.name = 'Akeem';
+userClone.age = '28;'
+
+console.log(userClone);
+console.log(user);
+
+// The downside to using this method is that it doesn't copy functions
+
