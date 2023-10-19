@@ -396,7 +396,7 @@ console.log(secondPetKitten.greeting());
 
 
 // Spread Operator
-// Simple syntax but doesn't deep copy nested objects 
+// Simple syntax but doesn't deep copy nested objects unless we write some special code
 
 const petPuppy = {
     name:'Chandler',
@@ -443,3 +443,7 @@ anotherPetPuppyClone = {
 
 console.log(anotherPetPuppy);
 console.log(anotherPetPuppyClone);
+
+
+// 20 - Declare an array of objects and sort them based on a property
+
