@@ -448,13 +448,32 @@ console.log(anotherPetPuppyClone);
 // 20 - Declare an array of objects and sort them based on a property
 
 const myUsers = [ 
-
-    
-
-
-
-
-
-
-
+ {
+    name: 'Zai',
+    age: '22',
+    location: 'UK'
+ },
+ {
+    name: 'Joe',
+    age:'23',
+    location: 'USA'
+ },
+ {
+    name: 'Raphael',
+    age: '24',
+    location: 'Italy'
+ }
 ]
+
+console.log(myUsers);
+
+// Sorting this array by the age property
+
+// Descending order of age
+myUsers.sort((a,b) => b.age - a.age);
+console.log(myUsers);
+
+// Ascending order of age
+myUsers.sort((a,b) => a.age - b.age);
+console.log(myUsers);
+
