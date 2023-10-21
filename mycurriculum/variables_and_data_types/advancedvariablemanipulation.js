@@ -23,14 +23,37 @@ myNumberArray.forEach(number => {
 });
 
 
-// Create a class for a simple object and instantiate it
+// 3 - Create a class for a simple object and instantiate it
 
 // Class declaration
 class myKittens {
     constructor(colour, breed, temperament) {
-        this.colour = 'white';
-        this.breed = 'singapura';
-        this.temperament = 'friendly';
+        this.colour = colour || 'white';  // A value can be provided for colour and if a value isn't provided the default value 'white' will be used 
+        this.breed = breed || 'singapura';
+        this.temperament = temperament || 'friendly';
     }
 }
 
+const kittenOne = new myKittens('black', 'tabby', 'naughty');
+
+console.log(kittenOne);
+
+console.log(kittenOne.colour);
+
+
+// 4 - Implement inheritance between two classes 
+
+// Class declaration
+class firstJacket {
+    constructor(colour, fabric) {
+        this.colour;
+        this.fabric;
+    }
+}
+
+class firstBag {
+    constructor(brand,year) {
+        this.brand;
+        this.year;
+    }
+}
