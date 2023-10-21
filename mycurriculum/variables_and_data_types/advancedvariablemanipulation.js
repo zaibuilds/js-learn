@@ -25,8 +25,12 @@ myNumberArray.forEach(number => {
 
 // Create a class for a simple object and instantiate it
 
-class cuteKitten {
-    constructor() {
-        
+// Class declaration
+class myKittens {
+    constructor(colour, breed, temperament) {
+        this.colour = 'white';
+        this.breed = 'singapura';
+        this.temperament = 'friendly';
     }
 }
+
