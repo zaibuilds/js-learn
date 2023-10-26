@@ -54,7 +54,25 @@ concatStrings('Applebottom ', 'Jeans');
 // 7 - Create a function that calculates the square of a number and returns the result
 
 function squareNum(num) {
- return Math.pow(num);  
+  let result = Math.pow(num, 2);
+  console.log(`The result is ${result}`)
+  return result
 }
 
-squareNum(2);
+squareNum(8);
+
+// 8 - Create a function that calculates the cube of a number and returns the result
+
+function cubeNum(num) {
+    let result = Math.pow(num, 3);
+    console.log(`The result is ${result}`)
+    return result
+}
+
+cubeNum(2);
+
+// 9 - Create a function that calculates the factorial of a number and returns the result
+
+function calculateFactorial(num){
+
+}
