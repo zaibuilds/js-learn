@@ -22,10 +22,18 @@ console.log(randomPerson.name);
 
 console.log(randomPerson["age"]);
 
-// Update the value of a property in an object 
+// 5 - Update the value of a property in an object 
 
 randomPerson.age = 23;
 
 console.log(randomPerson.age);
 
 randomPerson.city = "LA";
+
+// 6 - Add a new property to an existing object
+
+randomPerson.hobby = 'reading';
+
+console.log(randomPerson.hobby);
+
+// 7 - Delete a 
