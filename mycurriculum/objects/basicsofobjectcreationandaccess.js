@@ -36,4 +36,10 @@ randomPerson.hobby = 'reading';
 
 console.log(randomPerson.hobby);
 
-// 7 - Delete a 
+// 7 - Delete a property from an object
+
+delete randomPerson.city;
+
+console.log(randomPerson.city); // Returns undefined
+
+// 8 - 
