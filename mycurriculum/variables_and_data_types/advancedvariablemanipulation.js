@@ -47,13 +47,14 @@ console.log(kittenOne.colour);
 function firstJacket(colour, fabric) {
    
         this.colour = 'black';
+        this.fabric = 'sherpa';
   
 }
 
 // Add method to prototype of firstJacket class
 
 firstJacket.prototype.introduceProduct = function() {
-    console.log(`This jacket is ${this.colour}`);
+    console.log(`This jacket is ${this.colour} and made of ${this.fabric}`);
 }
 
 // Child class
@@ -62,7 +63,7 @@ function storeCustomer(fabric, colour) {
     // Call the constructor of the parent class using "call" or apply
 
     firstJacket.call(this, colour);
-   
+    firstJacket.call(this, fabric);
 }
 
 // Create a prototype chain for inheritance
@@ -73,7 +74,7 @@ storeCustomer.prototype.constructor = storeCustomer; // Reset the constructor pr
 // Adding a method to the child class
 
 storeCustomer.prototype.request = function() {
-    console.log("What colour is this jacket?")
+    console.log("What colour and fabric is this jacket?")
 };
 
 // Instantiate objects
