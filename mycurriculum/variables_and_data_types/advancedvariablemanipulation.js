@@ -43,17 +43,43 @@ console.log(kittenOne.colour);
 
 // 4 - Implement inheritance between two classes 
 
-// Class declaration
-class firstJacket {
-    constructor(colour, fabric) {
-        this.colour;
-        this.fabric;
-    }
+// Parent class declaration
+function firstJacket(colour, fabric) {
+   
+        this.colour = 'black';
+  
 }
 
-class firstBag {
-    constructor(brand,year) {
-        this.brand;
-        this.year;
-    }
+// Add method to prototype of firstJacket class
+
+firstJacket.prototype.introduceProduct = function() {
+    console.log(`This jacket is ${this.colour}`);
 }
+
+// Child class
+
+function storeCustomer(fabric, colour) {
+    // Call the constructor of the parent class using "call" or apply
+
+    firstJacket.call(this, colour);
+   
+}
+
+// Create a prototype chain for inheritance
+
+storeCustomer.prototype = Object.create(firstJacket.prototype);
+storeCustomer.prototype.constructor = storeCustomer; // Reset the constructor property
+
+// Adding a method to the child class
+
+storeCustomer.prototype.request = function() {
+    console.log("What colour is this jacket?")
+};
+
+// Instantiate objects
+
+const myCustomer = new storeCustomer (this.colour);
+
+myCustomer.request(); // What colour is this jacket?
+
+myCustomer.introduceProduct(); // This jacket is black
