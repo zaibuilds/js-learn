@@ -124,7 +124,7 @@ const myGames = new Set ();
 myGames.add('Dragon Quest IV');
 myGames.add('Dragon Quest V');
 myGames.add('Dragon Quest VI');
-
+// If you add equal elements only the first will be saved
 // Create a set and add variables
 
 // Create variables
@@ -193,3 +193,22 @@ console.log(puppies.get('labradors')) // Returns 2 in the console
 // The size() method returns the number of elements in a map
 
 console.log(puppies.size);
+
+// Map.delete()
+// The delete() method removes a Map element
+
+puppies.delete('chihuahuas');
+
+console.log(puppies)
+
+// Map.clear()
+// The clear() method removes all the elements from a map
+
+const men = new Map ([
+    ['a man', 1],
+    ['another man', 2]
+]);
+
+men.clear();
+
+console.log(men);
