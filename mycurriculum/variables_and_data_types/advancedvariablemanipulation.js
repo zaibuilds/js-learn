@@ -83,4 +83,113 @@ const myCustomer = new storeCustomer (this.colour);
 
 myCustomer.request(); // What colour is this jacket?
 
-myCustomer.introduceProduct(); // This jacket is black
+myCustomer.introduceProduct(); // This jacket is black and made of sherpa
+
+
+// 5 - Use the for...in loop to iterate over object properties.
+
+
+const myPuppy = {
+    breed: 'labrador',
+    colour: 'blonde',
+    age: '1'
+}
+
+for (const property in myPuppy) {
+    console.log(`${property}: ${myPuppy[property]}`);
+}
+
+
+// 6 - Use the for...of loop to iterate over iterable objects.
+
+const myArrayofNumbers = [2,4,6,8];
+
+for ( item of myArrayofNumbers) {
+    console.log(`This number is ${item}`);
+};
+
+
+// 7 - Create and use a set to store unique values 
+
+// Creating a set and passing an array to the new Set () constructor
+
+const setofAnimals = new Set (['koala', 'kangaroo', 'chinchilla', 'wallaby']);
+
+// Create a set and add literal values
+
+const myGames = new Set ();
+
+// Adding values to the set
+
+myGames.add('Dragon Quest IV');
+myGames.add('Dragon Quest V');
+myGames.add('Dragon Quest VI');
+
+// Create a set and add variables
+
+// Create variables
+
+const myGame1 = "Dragon Quest IV";
+const myGame2 = "Dragon Quest V";
+const myGame3 = "Dragon Quest VI";
+
+// Create a set 
+
+const myFavouriteGames = new Set();
+
+// Add the variables to the set
+
+myFavouriteGames.add(myGame1);
+myFavouriteGames.add(myGame2);
+myFavouriteGames.add(myGame3);
+
+
+// 8 - Create and use a map to associate keys with values 
+
+// Passing an array to new Map ()
+
+// Create a map
+
+const myPastries = new Map ([
+    ['eclairs', 20],
+    ['croissants', 15],
+    ['madeleines', 10]
+])
+
+// for of loop of pastries
+
+for (pastry of myPastries) {
+    console.log(`We have ${pastry} in stock  `)
+};
+
+// Map.set()
+
+// Create a map
+
+const puppies = new Map();
+
+// Set map values
+
+puppies.set('labradors', 2);
+puppies.set('huskies', 3);
+puppies.set('chihuahuas', 4);
+
+console.log(puppies);
+
+// The set() method can also be used to change existing map values
+
+puppies.set('chihuahuas', 2);
+
+console.log(puppies);
+
+// Map.get() 
+// The get() method gets the value of a key in a map
+
+puppies.get('labradors'); // Returns 2
+
+console.log(puppies.get('labradors')) // Returns 2 in the console
+
+// Map,size()
+// The size() method returns the number of elements in a map
+
+console.log(puppies.size);
