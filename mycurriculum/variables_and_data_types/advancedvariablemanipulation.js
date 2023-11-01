@@ -212,3 +212,12 @@ const men = new Map ([
 men.clear();
 
 console.log(men);
+
+// 9 - Use destructuring to extract values from an array and object.
+
+// Extracting values from an array
+
+const patientNames = ['Michael', 'Scott'];
+
+// Destructuring assignment 
+// sets firstNaME
