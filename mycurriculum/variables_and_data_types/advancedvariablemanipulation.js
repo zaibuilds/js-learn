@@ -227,3 +227,6 @@ let [firstName, surname] = patientNames;
 
 console.log(firstName);
 console.log(surname);
+
+// Extracting values from an object
+
