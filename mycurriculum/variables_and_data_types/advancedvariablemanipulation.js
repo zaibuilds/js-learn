@@ -230,3 +230,32 @@ console.log(surname);
 
 // Extracting values from an object
 
+const myTelfar = {
+    colour: 'blue',
+    size: 'large',
+    material: 'corduroy'
+}
+
+var telfarArray = [];
+
+for (var property in myTelfar) {
+    telfarArray.push(myTelfar[property]);
+}
+
+console.log(telfarArray);
+
+
+// 10 - Declare and use a generator function
+
+function* myGeneratorFunction(i) {  
+    let index = 0;
+    while (true) {
+      yield index++;
+    }
+}
+
+const myGen = myGeneratorFunction();
+
+console.log(myGen.next().value);
+console.log(myGen.next().value);
+console.log(myGen.next().value);
