@@ -220,4 +220,10 @@ console.log(men);
 const patientNames = ['Michael', 'Scott'];
 
 // Destructuring assignment 
-// sets firstNaME
+// sets firstName = arr[0]
+// sets surname = arr[1]
+
+let [firstName, surname] = patientNames;
+
+console.log(firstName);
+console.log(surname);
