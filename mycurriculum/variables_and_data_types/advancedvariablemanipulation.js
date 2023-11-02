@@ -259,3 +259,34 @@ const myGen = myGeneratorFunction();
 console.log(myGen.next().value);
 console.log(myGen.next().value);
 console.log(myGen.next().value);
+console.log(myGen.next().value);
+
+
+// 11 - Use the Promise constructor to create a promise.
+
+
+// 12 - Use async/await to work with asynchronous operations.
+
+
+// 13 - Create a custom error class.
+
+
+// 14 - Use the try...catch statement to handle errors.
+
+
+// 15 - Declare and use a symbol as an object property.
+
+
+// 16 - Use the Object.keys(), Object.values(), and Object.entries() methods.
+
+
+// 17 - Use bitwise operators to perform bitwise operations on numbers.
+
+
+// 18 - Use the parseInt() and parseFloat() functions to convert strings to numbers.
+
+
+// 19 - Declare a variable with global scope and access it locally.
+
+
+// 20 - Use the localStorage or sessionStorage to store and retrieve data in the browser.
