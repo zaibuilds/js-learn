@@ -264,6 +264,7 @@ console.log(myGen.next().value);
 
 // 11 - Use the Promise constructor to create a promise.
 
+myPromise 
 
 // 12 - Use async/await to work with asynchronous operations.
 
