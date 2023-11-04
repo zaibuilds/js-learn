@@ -264,7 +264,24 @@ console.log(myGen.next().value);
 
 // 11 - Use the Promise constructor to create a promise.
 
-myPromise 
+const myPromise = new Promise((resolve, reject) => {
+    // Simulate an asynchronous operation (e.g., fetching data)
+    setTimeout(() => {
+      const data = { result: 'Some data' };
+      // Simulate a successful operation
+      resolve(data);
+      // If there's an error:
+      // reject("An error occurred");
+    }, 1000);
+  });
+  
+  myPromise
+    .then(result => {
+      console.log("Promise resolved with result:", result);
+    })
+    .catch(error => {
+      console.error("Promise rejected with error:", error);
+    });
 
 // 12 - Use async/await to work with asynchronous operations.
 
