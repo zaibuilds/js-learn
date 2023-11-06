@@ -47,3 +47,11 @@ let declareObj = (object) => console.log(`This is a ${object}`);
 const object = 'pencil';
 
 declareObj(object);
+
+
+// 3 - Create a template string with placeholders
+
+let whoseName = 'Oklen';
+console.log(`${whoseName} can you help me with this please?`)
+
+// The ${whoseName} inside the backticks () is a placeholder for the value of the whoseNamevariable. When you use template literals like this, you can insert variables or expressions inside${}within the string, and they will be replaced with their actual values when the string is evaluated. In this case,whoseName` will be replaced with 'Oklen' in the resulting string.
