@@ -264,6 +264,22 @@ console.log(myGen.next().value);
 
 // 11 - Use the Promise constructor to create a promise.
 
+let myPromise = new Promise ((resolve, reject) => {
+    let a = 1+1
+
+    if (a == 2) {
+        resolve('Success')
+    } else {
+        reject('Failed')
+    }
+})
+
+myPromise.then((message) => {
+    console.log('This is in the then ' + message)
+}).catch((message) => {
+    console.log('This is in the catch ' + message)
+})
+
 
 // 12 - Use async/await to work with asynchronous operations.
 

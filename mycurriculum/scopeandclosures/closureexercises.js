@@ -45,6 +45,8 @@ innerFunction();
 // 4 - Create a counter function using closures that increments a value each time it's called.
 
 
+
+
 // 5 - Create a function that keeps track of the total number of function calls.
 
 
