@@ -311,7 +311,9 @@ myPromise.then((message) => {
 
 var myFruit = 'orange'
 
-function stateFruit
+let stateFruit = () => {console.log(`The fruit is an ${myFruit}`)};
+
+stateFruit();
 
 
 // 20 - Use the localStorage or sessionStorage to store and retrieve data in the browser.
