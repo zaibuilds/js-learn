@@ -284,6 +284,11 @@ myPromise.then((message) => {
 // 12 - Use async/await to work with asynchronous operations.
 
 
+
+
+
+
+
 // 13 - Create a custom error class.
 
 
@@ -303,6 +308,10 @@ myPromise.then((message) => {
 
 
 // 19 - Declare a variable with global scope and access it locally.
+
+var myFruit = 'orange'
+
+function stateFruit
 
 
 // 20 - Use the localStorage or sessionStorage to store and retrieve data in the browser.
