@@ -309,6 +309,7 @@ myPromise.then((message) => {
 
 // 19 - Declare a variable with global scope and access it locally.
 
+
 var myFruit = 'orange'
 
 let stateFruit = () => {console.log(`The fruit is an ${myFruit}`)};

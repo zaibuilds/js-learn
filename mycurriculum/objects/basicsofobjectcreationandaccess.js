@@ -42,4 +42,6 @@ delete randomPerson.city;
 
 console.log(randomPerson.city); // Returns undefined
 
-// 8 - 
+// 8 - Check if a property exists in an object.
+
+console.log('hobby' in randomPerson); // returns true
