@@ -11,6 +11,16 @@ greetUser('Zai');
 greetTheUser('Akeem');
 
 
+function stateLength(name) {
+    console.log('The length of your name is ' + name.length + " letters")
+}
+
+let stateNameLength = (aName) => console.log('The length of this name is ' + aName.length + " letters")
+
+stateLength('Zaina')
+stateNameLength('Oklen')
+
+
 // 2 - Use let and const to declare variables in different scopes
 
 
