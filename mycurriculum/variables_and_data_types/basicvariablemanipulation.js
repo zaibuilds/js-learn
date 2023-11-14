@@ -169,3 +169,4 @@ const myMixedDataTypeArray = ['hello', 1, true];
 console.log(typeof myMixedDataTypeArray[0]);
 console.log(typeof myMixedDataTypeArray[1]);
 console.log(typeof myMixedDataTypeArray[2]);
+
