@@ -5,7 +5,7 @@ let closure; // Declare closure in the global scope
 
 
 function greetUser() {
-    closure = myName; // Assigne myName to the closure variable
+    closure = myName; // Assign myName to the closure variable
     console.log(`Welcome ${closure}`);
 }
 
