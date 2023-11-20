@@ -79,19 +79,36 @@ myFruits.pop()
 
 // Check if a given variable is of type string.
 
-
+console.log(typeof str1)
 
 // Check if a given variable is undefined.
 
+let undefinedVar;
+
+console.log(typeof undefinedVar)
+
 // Check if a given variable is a number.
+
+console.log(typeof age)
 
 // Use the typeof operator to determine the type of a variable.
 
+console.log(typeof myArray)
+
 // Declare a variable sentence and assign a string to it.
+
+let sentence = 'This is a string'
 
 // Split the sentence into an array of words.
 
+const wordsArray = sentence.split(' ') // Splits using the spaces between words
+
+console.log(wordsArray)
+
 // Join the words in the array into a single string.
+
+let newSentence = wordsArray.join(' ');
+console.log(newSentence)
 
 // Convert a string to uppercase.
 
