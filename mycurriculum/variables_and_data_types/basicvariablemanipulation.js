@@ -112,6 +112,8 @@ console.log(newSentence)
 
 // Convert a string to uppercase.
 
+let newSentenceUppercase = newSentence.toUpperCase()
+console.log(newSentenceUppercase)
 // Convert a string to lowercase.
 
 // Declare an empty object car and add properties for make, model, and year.
