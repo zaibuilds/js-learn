@@ -116,6 +116,8 @@ let newSentenceUppercase = newSentence.toUpperCase()
 console.log(newSentenceUppercase)
 // Convert a string to lowercase.
 
+let newSentenceLowercase = newSentence.toLocaleUpperCase()
+
 // Declare an empty object car and add properties for make, model, and year.
 
 // Use the delete keyword to remove a property from the car object.
