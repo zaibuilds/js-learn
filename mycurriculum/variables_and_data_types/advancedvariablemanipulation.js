@@ -13,6 +13,13 @@ sayCatName();
 
 // 2 - Use the forEach method to iterate over an array and perform an action
 
+const myLetterArray = ['a', 'b', 'c'];
+
+function stateLetter() {
+  myLetterArray.forEach((element) => console.log(`This is the letter ${element}`))  
+};
+
+stateLetter();
 
 
 // 3 - Create a class for a simple object and instantiate it
@@ -222,64 +229,11 @@ console.log(surname);
 
 // Extracting values from an object
 
-const myTelfar = {
-    colour: 'blue',
-    size: 'large',
-    material: 'corduroy'
-}
-
-var telfarArray = [];
-
-for (var property in myTelfar) {
-    telfarArray.push(myTelfar[property]);
-}
-
-console.log(telfarArray);
-
-
 // 10 - Declare and use a generator function
-
-function* myGeneratorFunction(i) {  
-    let index = 0;
-    while (true) {
-      yield index++;
-    }
-}
-
-const myGen = myGeneratorFunction();
-
-console.log(myGen.next().value);
-console.log(myGen.next().value);
-console.log(myGen.next().value);
-console.log(myGen.next().value);
-
 
 // 11 - Use the Promise constructor to create a promise.
 
-let myPromise = new Promise ((resolve, reject) => {
-    let a = 1+1
-
-    if (a == 2) {
-        resolve('Success')
-    } else {
-        reject('Failed')
-    }
-})
-
-myPromise.then((message) => {
-    console.log('This is in the then ' + message)
-}).catch((message) => {
-    console.log('This is in the catch ' + message)
-})
-
-
 // 12 - Use async/await to work with asynchronous operations.
-
-
-
-
-
-
 
 // 13 - Create a custom error class.
 
@@ -300,13 +254,6 @@ myPromise.then((message) => {
 
 
 // 19 - Declare a variable with global scope and access it locally.
-
-
-var myFruit = 'orange'
-
-let stateFruit = () => {console.log(`The fruit is an ${myFruit}`)};
-
-stateFruit();
 
 
 // 20 - Use the localStorage or sessionStorage to store and retrieve data in the browser.
