@@ -132,6 +132,10 @@ console.log(myCarObj.make);
 
 // Use the delete keyword to remove a property from the car object.
 
+delete myCarObj.year;
+
+console.log(myCarObj.year);
+
 // Declare an array of mixed data types (e.g., numbers, strings, booleans).
 
 // Use the typeof operator to check the type of each element in the mixed data type array.

@@ -214,19 +214,6 @@ console.log(men);
 
 // 9 - Use destructuring to extract values from an array and object.
 
-// Extracting values from an array
-
-const patientNames = ['Michael', 'Scott'];
-
-// Destructuring assignment 
-// sets firstName = arr[0]
-// sets surname = arr[1]
-
-let [firstName, surname] = patientNames;
-
-console.log(firstName);
-console.log(surname);
-
 // Extracting values from an object
 
 // 10 - Declare and use a generator function
