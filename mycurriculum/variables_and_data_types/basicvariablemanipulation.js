@@ -120,6 +120,16 @@ let newSentenceLowercase = newSentence.toLocaleUpperCase()
 
 // Declare an empty object car and add properties for make, model, and year.
 
+const myCarObj = {
+
+};
+
+myCarObj.make = 'Tesla';
+myCarObj.model = 'S1';
+myCarObj.year = '2020';
+
+console.log(myCarObj.make);
+
 // Use the delete keyword to remove a property from the car object.
 
 // Declare an array of mixed data types (e.g., numbers, strings, booleans).
