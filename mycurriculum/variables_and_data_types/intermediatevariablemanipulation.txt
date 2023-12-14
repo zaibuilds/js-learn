@@ -1,0 +1,22 @@
+Intermediate Variable Manipulation:
+
+Create a function that swaps the values of two variables.
+Declare and initialise multiple variables in a single line.
+Use template literals to create a sentence with variables.
+Calculate the length of a string and store it in a variable.
+Check if a string contains a specific substring.
+Use the slice method to extract a portion of a string.
+Declare an empty array and push elements into it.
+Use the splice method to remove elements from an array.
+Sort an array of numbers in ascending order.
+Find the maximum and minimum values in an array of numbers.
+Use the map function to double the values in an array.
+Use the filter function to create a new array with specific values.
+Declare a function that takes parameters and returns a value.
+Use the typeof operator to check the type of a function.
+Create a nested object with properties and sub-properties.
+Access nested object properties using dot notation.
+Access nested object properties using bracket notation.
+Check if an object has a specific property.
+Create a deep copy of an object.
+Declare an array of objects and sort them based on a property.
