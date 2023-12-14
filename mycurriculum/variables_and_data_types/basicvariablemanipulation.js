@@ -46,3 +46,9 @@ const myPerson = {
 // Access the age property of the person object.
 
 // console.log(myPerson.age)
+
+// Change the value of the name property in the person object.
+
+myPerson.name = 'Oklen';
+
+// console.log(myPerson.name)
