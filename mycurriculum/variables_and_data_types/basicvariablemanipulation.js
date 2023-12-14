@@ -37,3 +37,8 @@ myArray.splice(1, 2, 3.14);
 
 // Declare an object person with properties name, age, and gender.
  
+const myPerson = {
+    'name': 'Akeem',
+    'age': '28',
+    'gender': 'male'
+};
