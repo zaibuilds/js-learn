@@ -52,3 +52,40 @@ const myPerson = {
 myPerson.name = 'Oklen';
 
 // console.log(myPerson.name)
+
+// Declare a constant variable PI and assign it the value of π (3.14159).
+
+const pi = 3.14159;
+
+// Declare a variable radius and assign a number to it.
+
+var radius = 2;
+
+// Calculate the area of a circle using PI and radius and store it in a variable.
+
+var circleArea = radius * pi;
+
+// console.log(circleArea)
+
+// Create an array of fruits with several fruit names.
+
+const myFruits  = [ 'grapes', 'apricots', 'oranges', 'cherries'];
+
+// Add a new fruit to the fruits array.
+
+myFruits.push('pomegranates');
+
+// console.log(myFruits)
+
+// Remove the last fruit from the fruits array.
+
+myFruits.pop()
+
+// console.log(myFruits)
+
+// Check if a given variable is of type string.
+
+// console.log(typeof strOne);
+
+// Check if a given variable is undefined.
+
