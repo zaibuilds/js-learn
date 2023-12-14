@@ -4,7 +4,7 @@ let nameVar = 'Zaina';
 
 // Create a variable age and assign your age to it.
 
-let ageVar = '23';
+let ageVar = 23;
 
 // Calculate the sum of two numbers and store it in a variable.
 
@@ -88,4 +88,23 @@ myFruits.pop()
 // console.log(typeof strOne);
 
 // Check if a given variable is undefined.
+
+let undefinedVar = undefined;
+
+// console.log(typeof undefinedVar);
+
+// Check if a given variable is a number.
+
+// function findNumber() {
+//     if (typeof ageVar === "number") {
+//         console.log('This is a number')
+//     } else {
+//         console.log('This is not a number')
+//     }
+// }
+// findNumber()
+
+// Use the typeof operator to determine the type of a variable.
+
+// console.log(typeof myPerson);
 
