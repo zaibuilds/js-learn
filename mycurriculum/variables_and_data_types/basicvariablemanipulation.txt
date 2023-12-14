@@ -1,6 +1,6 @@
 Basic Variable Manipulation Exercises
 
-Declare a variable name and assign your name to it.
+Declare a variable name and assign your name to it. 
 Create a variable age and assign your age to it.
 Calculate the sum of two numbers and store it in a variable.
 Concatenate two strings and store the result in a variable.

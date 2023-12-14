@@ -17,4 +17,23 @@ let strTwo = ' Cutiepie';
 
 let concatStr = strOne.concat(strTwo);
 
-console.log(concatStr);
+// Declare a variable isStudent and assign a boolean value to it.
+
+let isStudent = true;
+
+// Create a variable myArray and assign an array of numbers to it.
+
+const myArray = [3, 6, 9 , 12];
+
+// Access the third element of myArray.
+
+// console.log(myArray[2]);
+
+// Modify the second element of myArray.
+
+myArray.splice(1, 2, 3.14);
+
+// console.log(myArray[1])
+
+// Declare an object person with properties name, age, and gender.
+ 
