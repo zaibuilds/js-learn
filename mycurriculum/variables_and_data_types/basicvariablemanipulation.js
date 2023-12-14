@@ -1,4 +1,7 @@
 // Declare a variable name and assign your name to it.
+
+const { join } = require("nunjucks/src/filters");
+
  
 let nameVar = 'Zaina';
 
@@ -108,3 +111,26 @@ let undefinedVar = undefined;
 
 // console.log(typeof myPerson);
 
+// Declare a variable sentence and assign a string to it.
+
+var sentenceVariable = 'Have a good day beautiful';
+
+// Split the sentence into an array of words.
+
+let splitSentenceVariable = sentenceVariable.split(' ');
+
+// console.log(splitSentenceVariable);
+
+// Join the words in the array into a single string.
+
+let joinedSentenceVariable = splitSentenceVariable.join(' ');
+
+// console.log(joinedSentenceVariable);
+
+// Convert a string to uppercase.
+
+let upperCaseString = strOne.toUpperCase();
+
+// console.log(upperCaseString);
+
+// Convert a string to lowercase.
