@@ -11,3 +11,10 @@ let ageVar = '23';
 let sumOfTwo = 2 + 6;
 
 // Concatenate two strings and store the result in a variable.
+
+let strOne = 'Hey';
+let strTwo = ' Cutiepie';
+
+let concatStr = strOne.concat(strTwo);
+
+console.log(concatStr);
