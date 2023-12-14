@@ -42,3 +42,7 @@ const myPerson = {
     'age': '28',
     'gender': 'male'
 };
+
+// Access the age property of the person object.
+
+// console.log(myPerson.age)
