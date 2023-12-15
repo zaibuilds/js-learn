@@ -134,3 +134,35 @@ let upperCaseString = strOne.toUpperCase();
 // console.log(upperCaseString);
 
 // Convert a string to lowercase.
+
+let lowercaseString = strOne.toLowerCase();
+
+// console.log(lowercaseString);
+
+// Declare an empty object car and add properties for make, model, and year.
+
+const carObject = {
+
+};
+
+carObject.make = 'Ford';
+carObject.model = 'Fiesta';
+carObject.year = '2000';
+
+// console.log(carObject);
+
+// Use the delete keyword to remove a property from the car object.
+
+delete carObject.year;
+
+// console.log(carObject);
+
+// Declare an array of mixed data types (e.g., numbers, strings, booleans).
+
+const myMixedDataTypesArray = [2, 'hello', true];
+
+// Use the typeof operator to check the type of each element in the mixed data type array.
+
+// console.log(typeof myMixedDataTypesArray[0]);
+// console.log(typeof myMixedDataTypesArray[1]);
+// console.log(typeof myMixedDataTypesArray[2]);
