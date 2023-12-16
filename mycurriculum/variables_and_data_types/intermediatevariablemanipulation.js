@@ -17,7 +17,7 @@ b = store;
 
 // Declare and initialise multiple variables in a single line.
 
-let d, e, f = [4, 7 ,11];
+let d = 4;
+    
 
-console.log(d``)
 
