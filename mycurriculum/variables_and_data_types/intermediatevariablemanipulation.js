@@ -24,6 +24,13 @@ let d = 4;
     // console.log(d)
     // console.log(e)
     // console.log(f)
+
+// Use template literals to create a sentence with variables.
+
+let wordOne = "Hello"
+let wordTwo = " Lover"
+
+console.log(`He said ${wordOne} to his ${wordTwo}`);
     
 
 
