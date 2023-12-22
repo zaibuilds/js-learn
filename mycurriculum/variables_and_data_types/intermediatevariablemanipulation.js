@@ -40,4 +40,6 @@ let strLength = wordOne.length;
 // Check if a string contains a specific substring 
 
 let strCheckstr = "Hello Kitty";
- 
+let substr = "Kitty";
+
+// console.log(strCheckstr.includes(substr));
