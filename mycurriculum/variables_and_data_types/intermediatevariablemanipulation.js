@@ -30,7 +30,14 @@ let d = 4;
 let wordOne = "Hello"
 let wordTwo = " Lover"
 
-console.log(`He said ${wordOne} to his ${wordTwo}`);
-    
+// console.log(`He said ${wordOne} to his ${wordTwo}`);
 
+// Calculate the length of a string and store it in a variable.
 
+let strLength = wordOne.length;
+// console.log(strLength);
+
+// Check if a string contains a specific substring 
+
+let strCheckstr = "Hello Kitty";
+ 
