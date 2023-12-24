@@ -57,3 +57,9 @@ myPastryArray.push('madeleine');
 myPastryArray.push('pain au chocolat');
 
 // console.log(myPastryArray);
+
+// Use the splice method to remove elements from an array.
+
+myPastryArray.splice(0,1);
+
+// console.log(myPastryArray);
