@@ -43,3 +43,10 @@ let strCheckstr = "Hello Kitty";
 let substr = "Kitty";
 
 // console.log(strCheckstr.includes(substr));
+
+// Use the slice method to extract a portion of a string.
+
+let strSlice = wordTwo.slice(0,5);
+// console.log(strSlice)
+
+// 
