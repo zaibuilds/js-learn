@@ -74,4 +74,5 @@ console.log(myArrayOfAscendingNumbers);
 
 // Find the maximum and minimum values in an array of numbers.
 
-
+// console.log(Math.max(...myArrayOfAscendingNumbers));
+// console.log(Math.min(...myArrayOfAscendingNumbers));
