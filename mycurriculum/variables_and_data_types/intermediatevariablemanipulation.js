@@ -63,3 +63,11 @@ myPastryArray.push('pain au chocolat');
 myPastryArray.splice(0,1);
 
 // console.log(myPastryArray);
+
+// Sort an array of numbers in ascending order.
+
+const myArrayOfAscendingNumbers = [8, 7, 3, 4, 2];
+
+myArrayOfAscendingNumbers.sort()
+
+console.log(myArrayOfAscendingNumbers);
