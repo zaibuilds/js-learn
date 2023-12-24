@@ -68,6 +68,10 @@ myPastryArray.splice(0,1);
 
 const myArrayOfAscendingNumbers = [8, 7, 3, 4, 2];
 
-myArrayOfAscendingNumbers.sort()
+myArrayOfAscendingNumbers.sort((a,b) => a - b)
 
 console.log(myArrayOfAscendingNumbers);
+
+// Find the maximum and minimum values in an array of numbers.
+
+
