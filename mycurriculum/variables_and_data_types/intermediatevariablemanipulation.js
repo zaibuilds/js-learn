@@ -49,4 +49,11 @@ let substr = "Kitty";
 let strSlice = wordTwo.slice(0,5);
 // console.log(strSlice)
 
-// 
+// Declare an empty array and push elements into it.
+
+const myPastryArray = [];
+myPastryArray.push('croissant');
+myPastryArray.push('madeleine');
+myPastryArray.push('pain au chocolat');
+
+// console.log(myPastryArray);
