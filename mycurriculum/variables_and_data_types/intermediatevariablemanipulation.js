@@ -76,3 +76,11 @@ console.log(myArrayOfAscendingNumbers);
 
 // console.log(Math.max(...myArrayOfAscendingNumbers));
 // console.log(Math.min(...myArrayOfAscendingNumbers));
+
+// Use the map function to double the values in an array.
+
+const doubleMyNum = [1,2,3,4];
+
+let myDoubledNums = doubleMyNum.map((a) => a * 2);
+
+console.log(myDoubledNums);
