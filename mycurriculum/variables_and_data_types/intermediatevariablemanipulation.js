@@ -101,6 +101,22 @@ let determineLength = ((string) => console.log(string.length));
 
 let determineFunction = ((func) => console.log(typeof func));
 
-determineFunction(determineLength);
+// determineFunction(determineLength);
+
+// Create a nested object with properties and sub-properties.
+
+const petKitten = {
+    colour: {
+        eyeColour: 'green',
+        furColour: 'white'
+    },
+    breed: 'singapura'
+}
+
+// Access nested object properties using dot notation.
+
+console.log(petKitten.colour.eyeColour);
+
+// Access nested object properties using bracket notation.
 
 
