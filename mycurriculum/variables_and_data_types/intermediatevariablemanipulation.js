@@ -119,4 +119,11 @@ console.log(petKitten.colour.eyeColour);
 
 // Access nested object properties using bracket notation.
 
+console.log(petKitten['colour']['furColour']);
+
+// Check if an object has a specific property.
+
+console.log(petKitten.hasOwnProperty('name')) // returns false
+
+// Create a deep copy of an object.
 
