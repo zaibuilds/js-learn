@@ -89,4 +89,16 @@ let myDoubledNums = doubleMyNum.map((a) => a * 2);
 
 let myFilteredArray = myDoubledNums.filter((num) => num > 2)
 
-console.log(myFilteredArray)
+// console.log(myFilteredArray)
+
+// Declare a function that takes parameters and returns a value.
+
+let determineLength = ((string) => console.log(string.length));
+
+// determineLength('peekaboo');
+
+// Use the typeof operator to check the type of a function.
+
+
+
+
