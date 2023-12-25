@@ -99,6 +99,8 @@ let determineLength = ((string) => console.log(string.length));
 
 // Use the typeof operator to check the type of a function.
 
+let determineFunction = ((func) => console.log(typeof func));
 
+determineFunction(determineLength);
 
 
