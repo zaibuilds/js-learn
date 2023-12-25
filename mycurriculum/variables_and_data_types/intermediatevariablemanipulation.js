@@ -70,7 +70,7 @@ const myArrayOfAscendingNumbers = [8, 7, 3, 4, 2];
 
 myArrayOfAscendingNumbers.sort((a,b) => a - b)
 
-console.log(myArrayOfAscendingNumbers);
+// console.log(myArrayOfAscendingNumbers);
 
 // Find the maximum and minimum values in an array of numbers.
 
@@ -83,4 +83,10 @@ const doubleMyNum = [1,2,3,4];
 
 let myDoubledNums = doubleMyNum.map((a) => a * 2);
 
-console.log(myDoubledNums);
+// console.log(myDoubledNums);
+
+// Use the filter function to create a new array with specific values.
+
+let myFilteredArray = myDoubledNums.filter((num) => num > 2)
+
+console.log(myFilteredArray)
