@@ -134,3 +134,8 @@ const myPerfectPartner = {
     ethnicity: 'jamaican'
 }
 
+const myPerfectPartnerObjectCopy = JSON.parse(JSON.stringify(myPerfectPartner));
+
+myPerfectPartnerObjectCopy.name = 'oklen';
+
+console.log(myPerfectPartnerObjectCopy)
