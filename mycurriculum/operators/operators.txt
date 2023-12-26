@@ -1,0 +1,102 @@
+Operators 
+
+Write an expression that adds two numbers.
+Subtract one number from another.
+Multiply two numbers.
+Divide one number by another.
+Find the remainder when dividing one number by another.
+Calculate the square root of a number.
+Calculate the square of a number.
+Add, subtract, multiply, and divide multiple numbers in a single expression.
+Calculate the area of a rectangle using its length and width.
+Calculate the area of a triangle using its base and height.
+Calculate the circumference of a circle using its radius.
+Calculate the area of a circle using its radius.
+Convert Fahrenheit to Celsius using the formula: C = (F - 32) * 5/9.
+Convert Celsius to Fahrenheit using the formula: F = (C * 9/5) + 32.
+Increment a variable by 1.
+Decrement a variable by 1.
+Use the addition assignment operator to add a number to a variable.
+Use the subtraction assignment operator to subtract a number from a variable.
+Use the multiplication assignment operator to multiply a variable by a number.
+Use the division assignment operator to divide a variable by a number.
+Use the modulus assignment operator to find the remainder when dividing a variable by a number.
+Increment a variable by a specific value.
+Decrement a variable by a specific value.
+Use the addition assignment operator to add a specific value to a variable.
+Use the subtraction assignment operator to subtract a specific value from a variable.
+Use the multiplication assignment operator to multiply a variable by a specific value.
+Use the division assignment operator to divide a variable by a specific value.
+Use the modulus assignment operator to find the remainder when dividing a variable by a specific value.
+Create a variable and assign it a boolean value.
+Use the equality operator (==) to compare two numbers.
+Use the strict equality operator (===) to compare two numbers.
+Use the inequality operator (!=) to compare two numbers.
+Use the strict inequality operator (!==) to compare two numbers.
+Use the greater than operator (>) to compare two numbers.
+Use the less than operator (<) to compare two numbers.
+Use the greater than or equal to operator (>=) to compare two numbers.
+Use the less than or equal to operator (<=) to compare two numbers.
+Combine multiple comparison operators in a single expression.
+Use the logical AND operator (&&) to combine two boolean values.
+Use the logical OR operator (||) to combine two boolean values.
+Use the logical NOT operator (!) to negate a boolean value.
+Write an expression that checks if a number is even.
+Write an expression that checks if a number is odd.
+Write an expression that checks if a number is positive.
+Write an expression that checks if a number is negative.
+Write an expression that checks if a number is equal to 0.
+Write an expression that checks if a number is divisible by another number.
+Write an expression that checks if a string is empty.
+Use the ternary conditional operator to assign a value based on a condition.
+Use the typeof operator to determine the data type of a variable.
+Concatenate two strings using the + operator.
+Use the shorthand += operator to concatenate a string to another string.
+Create an array and use the + operator to add an element to it.
+Use the comma operator to combine multiple expressions.
+Use the bitwise AND operator (&) on two binary numbers.
+Use the bitwise OR operator (|) on two binary numbers.
+Use the bitwise XOR operator (^) on two binary numbers.
+Use the bitwise NOT operator (~) on a binary number.
+Use the left shift operator (<<) on a binary number.
+Use the right shift operator (>>) on a binary number.
+Use the unsigned right shift operator (>>>) on a binary number.
+Use the bitwise AND assignment operator (&=) on a binary number.
+Use the bitwise OR assignment operator (|=) on a binary number.
+Use the bitwise XOR assignment operator (^=) on a binary number.
+Use the left shift assignment operator (<<=) on a binary number.
+Use the right shift assignment operator (>>=) on a binary number.
+Use the unsigned right shift assignment operator (>>>=) on a binary number.
+Use the conditional (ternary) operator to find the larger of two numbers.
+Use the conditional (ternary) operator to find the smaller of two numbers.
+Use the conditional (ternary) operator to check if a number is positive or negative.
+Use the conditional (ternary) operator to check if a number is even or odd.
+Use the conditional (ternary) operator to check if a number is divisible by another number.
+Use the logical AND operator (&&) to check if two conditions are true.
+Use the logical OR operator (||) to check if at least one condition is true.
+Use the logical NOT operator (!) to invert a condition.
+Use the typeof operator to check if a variable is a number.
+Use the typeof operator to check if a variable is a string.
+Use the typeof operator to check if a variable is an object.
+Use the typeof operator to check if a variable is undefined.
+Use the typeof operator to check if a variable is a function.
+Use the in operator to check if a property exists in an object.
+Use the instanceof operator to check if an object is an instance of a specific class.
+Use the delete operator to remove a property from an object.
+Use the new operator to create an instance of a constructor function.
+Use the instanceof operator to check if an object is an instance of a built-in constructor function (e.g., Array).
+Use the void operator to evaluate an expression and return undefined.
+Use the conditional (ternary) operator to check if a variable is defined.
+Use the typeof operator to check if a variable is a boolean.
+Use the typeof operator to check if a variable is a symbol.
+Use the typeof operator to check if a variable is a bigint.
+Use the typeof operator to check if a variable is a null value.
+Use the typeof operator to check if a variable is a NaN (Not-a-Number) value.
+Use the typeof operator to check if a variable is a Date object.
+Use the typeof operator to check if a variable is an array.
+Use the typeof operator to check if a variable is a regular expression.
+Use the typeof operator to check if a variable is a Map object.
+Use the typeof operator to check if a variable is a Set object.
+Use the typeof operator to check if a variable is a Promise object.
+Use the typeof operator to check if a variable is an Error object.
+Use the typeof operator to check if a variable is a Symbol object.
