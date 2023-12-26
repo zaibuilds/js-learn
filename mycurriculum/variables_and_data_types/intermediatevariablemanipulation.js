@@ -128,9 +128,9 @@ console.log(petKitten.hasOwnProperty('breed')) // returns false
 
 // Create a deep copy of an object.
 
-const myPerfectObject = {
+const myPerfectPartner = {
     name:'akeem',
-    age: '23',
+    age: '28',
     ethnicity: 'jamaican'
 }
 
