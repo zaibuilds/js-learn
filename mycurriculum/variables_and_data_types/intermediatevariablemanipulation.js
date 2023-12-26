@@ -124,6 +124,7 @@ console.log(petKitten['colour']['furColour']);
 // Check if an object has a specific property.
 
 console.log(petKitten.hasOwnProperty('name')) // returns false
+console.log(petKitten.hasOwnProperty('breed')) // returns false
 
 // Create a deep copy of an object.
 
