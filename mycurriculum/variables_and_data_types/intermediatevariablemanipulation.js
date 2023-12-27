@@ -140,15 +140,26 @@ myPerfectPartnerObjectCopy.name = 'oklen';
 
 // Declare an array of objects and sort them based on a property.
 
-const myArrayOfObjects = [
+const myArrayOfUsers = [
     {
-        colour: 'pink'
+        name: 'zaina',
+        sex: 'female',
+        age: '23',
+        location: 'uk'
     },
     {
-        colour: 'blue'
+        name: 'andrew',
+        sex: 'male',
+        age: '43',
+        location: 'uk'
     },
     {
-        colour: 'yellow'
+        name: 'muhtasem',
+        age: '33',
+        location: 'usa'
     }
 ]
+
+
+
 
