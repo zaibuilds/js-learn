@@ -135,7 +135,20 @@ const myPerfectPartner = {
 }
 
 const myPerfectPartnerObjectCopy = JSON.parse(JSON.stringify(myPerfectPartner));
-
 myPerfectPartnerObjectCopy.name = 'oklen';
+// console.log(myPerfectPartnerObjectCopy)
 
-console.log(myPerfectPartnerObjectCopy)
+// Declare an array of objects and sort them based on a property.
+
+const myArrayOfObjects = [
+    {
+        colour: 'pink'
+    },
+    {
+        colour: 'blue'
+    },
+    {
+        colour: 'yellow'
+    }
+]
+
