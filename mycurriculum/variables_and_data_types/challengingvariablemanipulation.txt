@@ -1,0 +1,22 @@
+Challenging Variable Manipulation
+
+Implement a binary search algorithm for an array.
+Create and use a custom data structure (e.g., a linked list).
+Implement a stack or a queue using arrays or objects.
+Create a recursive function to calculate the factorial of a number.
+Use regular expressions to validate email addresses.
+Create a function that generates a random password.
+Implement a debounce or throttle function for event handling.
+Create a timer using setInterval or setTimeout.
+Implement a basic calculator with operators (+, -, *, /).
+Create a function that deep merges two objects.
+Implement a function to find the Fibonacci sequence.
+Create a function that checks for palindrome strings.
+Use the fetch API to make an HTTP request and display the result.
+Implement a simple DOM manipulation task (e.g., hide/show elements).
+Create a drag-and-drop feature using JavaScript.
+Implement a basic form validation script.
+Create a simple interactive quiz with multiple questions.
+Implement a real-time chat application using WebSocket.
+Create a canvas-based drawing application.
+Build a responsive image gallery with JavaScript.
