@@ -33,3 +33,5 @@ class petKitten {
 const myPetKitten = new petKitten('Munchie','Siamese','Female');
 
 console.log(myPetKitten)
+
+// Implement inheritance between two classes.
