@@ -160,6 +160,11 @@ const myArrayOfUsers = [
     }
 ]
 
+myArrayOfUsers.sort(
+    function(a, b) {
+        return a.age - b.age
+     }
+)
 
-
+console.log(myArrayOfUsers);
 
