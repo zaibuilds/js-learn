@@ -18,3 +18,10 @@ myItemArray.forEach((i) => console.log(`This is a ` + i));
 
 // Create a class for a simple object and instantiate it.
 
+class petKitten {
+    constructor(breed,gender) {
+        this.breed = 'siamese';
+        this.gender = 'female';
+        
+    }
+}

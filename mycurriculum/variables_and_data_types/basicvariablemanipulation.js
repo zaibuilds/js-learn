@@ -1,8 +1,5 @@
 // Declare a variable name and assign your name to it.
 
-const { join } = require("nunjucks/src/filters");
-
- 
 let nameVar = 'Zaina';
 
 // Create a variable age and assign your age to it.
