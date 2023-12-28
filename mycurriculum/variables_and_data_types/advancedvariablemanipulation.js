@@ -20,11 +20,16 @@ myItemArray.forEach((i) => console.log(`This is a ` + i));
 
 // Creating a class
 class petKitten {
-    constructor(breed,gender) {
-        this.breed = 'siamese';
-        this.gender = 'female';
+    constructor(catName, catBreed, catGender) {
+        this.name = catName;
+        this.breed = catBreed;
+        this.gender = catGender;
         
     }
 }
 
 // Instantiating a class 
+
+const myPetKitten = new petKitten('Munchie','Siamese','Female');
+
+console.log(myPetKitten)
