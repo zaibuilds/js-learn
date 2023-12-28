@@ -11,3 +11,8 @@ function logVariable (){
 logVariable();
 
 // Use the forEach method to iterate over an array and perform an action.
+
+let myItemArray = ['table', 'chair', 'desk'];
+
+myItemArray.forEach((i) => console.log(`This is a ` + i));
+
