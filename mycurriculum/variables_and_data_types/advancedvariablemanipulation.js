@@ -16,3 +16,5 @@ let myItemArray = ['table', 'chair', 'desk'];
 
 myItemArray.forEach((i) => console.log(`This is a ` + i));
 
+// Create a class for a simple object and instantiate it.
+
