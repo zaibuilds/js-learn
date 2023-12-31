@@ -35,3 +35,6 @@ const myPetKitten = new petKitten('Munchie','Siamese','Female');
 console.log(myPetKitten)
 
 // Implement inheritance between two classes.
+
+
+// Use the for...in loop to iterate over object properties.
