@@ -36,5 +36,14 @@ console.log(myPetKitten)
 
 // Implement inheritance between two classes.
 
+class myPet {
+    constructor (petSpecies, petName, petGender) {
+        this
+    }
+}
+
 
 // Use the for...in loop to iterate over object properties.
+
+
+// Use the for...of loop to iterate over iterable objects.
