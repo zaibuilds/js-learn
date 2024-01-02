@@ -38,7 +38,10 @@ console.log(myPetKitten)
 
 class myPet {
     constructor (petSpecies, petName, petGender) {
-        this
+        this.petSpecies = petSpecies;
+        this.petName = petName;
+        this.petGender = petGender
+
     }
 }
 
