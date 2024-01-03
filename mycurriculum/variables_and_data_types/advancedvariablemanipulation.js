@@ -55,5 +55,10 @@ class myFavouritePet {
 
 // Use the for...in loop to iterate over object properties.
 
+const myBabes = {
+    name: 'akeem',
+    age: '28'
+}
+
 
 // Use the for...of loop to iterate over iterable objects.
