@@ -45,6 +45,13 @@ class myPet {
     }
 }
 
+class myFavouritePet {
+    constructor (petBreed, petColour) {
+        this.petBreed = petBreed;
+        this.petColour = petColour;
+    }
+}
+
 
 // Use the for...in loop to iterate over object properties.
 
