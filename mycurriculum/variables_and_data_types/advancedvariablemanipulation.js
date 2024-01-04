@@ -56,13 +56,19 @@ class myFavouritePet {
 // Use the for...in loop to iterate over object properties.
 
 const myBabes = {
-    name: 'akeem',
+    personName: 'akeem',
     age: '28',
     occupation: 'cybersecurity engineer',
     zodiac: 'libra'
-};
+}; 
 
+// This object is not iterable
 
+for (property in myBabes) {
+console.log(property + ': ' + myBabes[property])
+}
 
 
 // Use the for...of loop to iterate over iterable objects.
+
+
