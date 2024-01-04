@@ -57,8 +57,12 @@ class myFavouritePet {
 
 const myBabes = {
     name: 'akeem',
-    age: '28'
-}
+    age: '28',
+    occupation: 'cybersecurity engineer',
+    zodiac: 'libra'
+};
+
+
 
 
 // Use the for...of loop to iterate over iterable objects.
