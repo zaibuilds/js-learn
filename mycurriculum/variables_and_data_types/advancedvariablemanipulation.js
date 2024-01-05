@@ -71,4 +71,4 @@ console.log(property + ': ' + myBabes[property])
 
 // Use the for...of loop to iterate over iterable objects.
 
-
+for
