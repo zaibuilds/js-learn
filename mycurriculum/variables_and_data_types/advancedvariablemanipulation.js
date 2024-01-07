@@ -71,4 +71,6 @@ console.log(property + ': ' + myBabes[property])
 
 // Use the for...of loop to iterate over iterable objects.
 
-for
+const myArrayofNumbers = [2,4,6,8,10,12];
+
+
