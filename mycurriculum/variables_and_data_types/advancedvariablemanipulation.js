@@ -73,4 +73,6 @@ console.log(property + ': ' + myBabes[property])
 
 const myArrayofNumbers = [2,4,6,8,10,12];
 
-
+for (number of myArrayofNumbers) {
+    console.log(`This number is ` + number + 1)
+}
