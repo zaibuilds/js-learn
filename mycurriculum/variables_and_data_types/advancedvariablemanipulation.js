@@ -94,14 +94,30 @@ class Plant {
 
 // Child class inheriting from the parent
 
-class Herb {
+class Herb extends Plant {
     constructor(herbName) {
-        this.herbName = herbName;
+       super(herbName);
     }
 }
 
 // Set up the prototype chain
+Herb.prototype = Object.create(Plant.prototype);
+Herb.prototype.constructor = Herb;
 
+// Add a method specific to herb
+Herb.prototype.sayName = function() {
+    console.log('Hello! I am a herb')
+};
+
+// Create instances
+const myNewPlant = new Plant("Aloe Vera");
+const myNewHerb = new Herb ("Rosemary");
+
+// Test the methods
+
+myNewPlant.plantNeeds();
+myNewHerb.sayName();
+myNewHerb.plantNeeds();
 
 // Use the for...in loop to iterate over object properties.
 
