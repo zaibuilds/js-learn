@@ -134,7 +134,6 @@ for (property in myBabes) {
 console.log(property + ': ' + myBabes[property])
 }
 
-
 // Use the for...of loop to iterate over iterable objects.
 
 const myArrayofNumbers = [2,4,6,8,10,12];
@@ -142,3 +141,5 @@ const myArrayofNumbers = [2,4,6,8,10,12];
 for (number of myArrayofNumbers) {
     console.log(`This number is ` + number + 1)
 }
+
+// Create and use a set to store unique values.
