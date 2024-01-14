@@ -79,6 +79,22 @@ console.log(myNewPet)
 console.log(myNewFavouritePet)
 
 
+// Method 2 - Using ES6 classes
+
+// Parent class
+class Plant {
+    constructor(plantName) {
+        this.plantName = plantName;
+    }
+
+    plantNeeds() {
+        console.log('This plant needs plenty of sun and water daily');
+    }
+}
+
+
+
+
 
 // Use the for...in loop to iterate over object properties.
 
