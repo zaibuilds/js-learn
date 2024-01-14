@@ -92,8 +92,15 @@ class Plant {
     }
 }
 
+// Child class inheriting from the parent
 
+class Herb {
+    constructor(herbName) {
+        this.herbName = herbName;
+    }
+}
 
+// Set up the prototype chain
 
 
 // Use the for...in loop to iterate over object properties.
