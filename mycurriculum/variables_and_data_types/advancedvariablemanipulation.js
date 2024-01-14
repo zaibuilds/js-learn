@@ -34,23 +34,50 @@ const myPetKitten = new petKitten('Munchie','Siamese','Female');
 
 console.log(myPetKitten)
 
-// Implement inheritance between two classes. *HELLO*
+// Implement inheritance between two classes. 
 
+// Method 1 - Using prototypes
+
+// Parent class
 class myPet {
-    constructor (petSpecies, petName, petGender) {
+    constructor (petSpecies, petName, petGender, petSound) {
         this.petSpecies = petSpecies;
         this.petName = petName;
-        this.petGender = petGender
-
+        this.petGender = petGender;
+        this.petSound = petSound;
     }
 }
 
+// Child class
 class myFavouritePet {
     constructor (petBreed, petColour) {
         this.petBreed = petBreed;
         this.petColour = petColour;
     }
 }
+
+// Set up the prototype chain
+
+myFavouritePet.prototype = Object.create(myPet.prototype);
+myFavouritePet.prototype.constructor = myFavouritePet;
+
+// Add a method specific to myFavouritePet 
+
+myFavouritePet.prototype.meow = function () {
+    console.log("Meow!")
+};
+
+// Create instances
+
+const myNewPet = new myPet ("Cat", "Mononoke","Female");
+const myNewFavouritePet = new myFavouritePet ("Singapura", "White")
+
+// Test methods
+
+myNewFavouritePet.meow()
+console.log(myNewPet)
+console.log(myNewFavouritePet)
+
 
 
 // Use the for...in loop to iterate over object properties.
