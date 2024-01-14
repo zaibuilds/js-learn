@@ -143,3 +143,15 @@ for (number of myArrayofNumbers) {
 }
 
 // Create and use a set to store unique values.
+
+const zooAnimals = new Set(['lion', 'tiger', 'koala', 'giraffe']);
+
+// Log all values 
+console.log([...zooAnimals])
+
+// Log specific values directly
+console.log(zooAnimals.has('lion')? 'There is a lion at the zoo' : 'There is not a lion at the zoo')
+
+// // Log the first value using Array.from()
+
+console.log(Array.from(zooAnimals)[0])
