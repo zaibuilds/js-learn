@@ -186,3 +186,11 @@ myHobbiesTime.set('coding', 21);
 console.log(mySnacks.get('doritos'));
 console.log(mySnacks.get('breadsticks'));
 console.log(mySnacks.get('cheese'));
+
+
+// Use destructuring to extract values from an array and object.
+
+// Array example
+
+const myHobbies = ['coding', 'design', 'gym'];
+
