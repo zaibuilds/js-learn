@@ -169,6 +169,18 @@ const mySnacks = new Map (
     ]
 )
 
+// Create a map using the set() method 
+
+const myHobbiesTime = new Map ();
+
+myHobbiesTime.set('coding', 14);
+myHobbiesTime.set('gym', 8);
+myHobbiesTime.set('studying', 12);
+
+// The set() method can also be used to change the value of an existing key in a map
+
+myHobbiesTime.set('coding', 21);
+ 
 // Map.get() - this method gets the value of a key in a map
 
 console.log(mySnacks.get('doritos'));
