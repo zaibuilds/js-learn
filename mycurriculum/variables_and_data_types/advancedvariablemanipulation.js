@@ -172,3 +172,5 @@ const mySnacks = new Map (
 // Map.get() - this method gets the value of a key in a map
 
 console.log(mySnacks.get('doritos'));
+console.log(mySnacks.get('breadsticks'));
+console.log(mySnacks.get('cheese'));
