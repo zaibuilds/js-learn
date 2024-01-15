@@ -194,3 +194,5 @@ console.log(mySnacks.get('cheese'));
 
 const myHobbies = ['coding', 'design', 'gym'];
 
+// Destructuring array
+
