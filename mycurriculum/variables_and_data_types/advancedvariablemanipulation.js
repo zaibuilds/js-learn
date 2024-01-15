@@ -155,3 +155,20 @@ console.log(zooAnimals.has('lion')? 'There is a lion at the zoo' : 'There is not
 // // Log the first value using Array.from()
 
 console.log(Array.from(zooAnimals)[0])
+
+
+// Create and use a map to associate keys with values.
+
+// Create a map and pass an array to the map
+
+const mySnacks = new Map (
+    [
+        ["doritos", 2],
+        ["breadsticks", 4],
+        ["cheese", 1]
+    ]
+)
+
+// Map.get() - this method gets the value of a key in a map
+
+console.log(mySnacks.get('doritos'));
