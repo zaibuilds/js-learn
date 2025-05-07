@@ -1,0 +1,161 @@
+// Functions Exercises
+
+// Basic Function Declarations and Calls:
+
+// Create a function that prints "Hello, world!" to the console.
+// Create a function that adds two numbers and returns the result.
+// Create a function that subtracts two numbers and returns the result.
+// Create a function that multiplies two numbers and returns the result.
+// Create a function that divides two numbers and returns the result.
+// Create a function that concatenates two strings and returns the result.
+// Create a function that calculates the square of a number and returns the result.
+// Create a function that calculates the cube of a number and returns the result.
+// Create a function that calculates the factorial of a number and returns the result.
+// Create a function that checks if a number is even and returns true if it is, false otherwise.
+// Create a function that checks if a number is odd and returns true if it is, false otherwise.
+// Create a function that checks if a number is prime and returns true if it is, false otherwise.
+// Create a function that converts a Fahrenheit temperature to Celsius and returns the result.
+// Create a function that converts a Celsius temperature to Fahrenheit and returns the result.
+// Create a function that calculates the area of a rectangle given its length and width and returns the result.
+// Create a function that calculates the area of a circle given its radius and returns the result.
+// Create a function that calculates the volume of a sphere given its radius and returns the result.
+// Create a function that calculates the perimeter of a square given its side length and returns the result.
+// Create a function that calculates the perimeter of a triangle given its three side lengths and returns the result.
+// Create a function that calculates the hypotenuse of a right triangle given the lengths of its two legs and returns the result.
+
+// Function Expressions:
+
+// Create a function expression that squares a number and returns the result.
+// Create a function expression that capitalizes the first letter of a string and returns the result.
+// Create a function expression that reverses a string and returns the result.
+// Create a function expression that counts the number of vowels in a string and returns the count.
+// Create a function expression that checks if a string is a palindrome and returns true if it is, false otherwise.
+
+// Arrow Functions:
+
+// Rewrite the previous exercises (1-25) using arrow functions where applicable.
+// Create an arrow function that calculates the square root of a number and returns the result.
+// Create an arrow function that generates a random number between two given values and returns the result.
+// Create an arrow function that finds the maximum number in an array of numbers and returns the result.
+// Create an arrow function that finds the minimum number in an array of numbers and returns the result.
+
+
+// Function Parameters and Arguments:
+
+// Create a function that accepts two parameters and returns their sum.
+// Create a function that accepts three parameters and returns their product.
+// Create a function that accepts an array of numbers as a parameter and returns the sum of all the numbers.
+// Create a function that accepts a string and a character as parameters and returns the number of times the character appears in the string.
+// Create a function that accepts a string as a parameter and returns the reverse of the string.
+// Create a function that accepts an array of strings as a parameter and returns the longest string in the array.
+// Create a function that accepts two strings as parameters and concatenates them with a space in between.
+// Create a function that accepts an array of numbers as a parameter and returns a new array with all the numbers squared.
+// Create a function that accepts an array of numbers as a parameter and returns a new array with only the even numbers.
+// Create a function that accepts an array of strings as a parameter and returns a new array with all the strings capitalized.
+
+
+// Function Scope and Closures:
+
+// Create a function that demonstrates lexical scope by accessing a variable defined outside of the function.
+// Create a function that returns another function, and the inner function should have access to the outer function's variables (closure).
+// Create a counter function that keeps track of how many times it has been called.
+// Create a function that accepts a discount percentage and returns a function that calculates the discounted price of an item.
+// Create a function that uses a closure to store and update a private counter variable.
+
+
+// Higher-Order Functions:
+
+// Create a function that takes an array of numbers and a function as arguments, and it applies the function to each element in the array and returns a new array with the results.
+// Create a function that filters an array of numbers to return only the even numbers.
+// Create a function that maps an array of strings to an array of their lengths.
+// Create a function that reduces an array of numbers to their sum.
+// Create a function that finds the first element in an array that satisfies a given condition.
+
+
+// Recursion:
+
+// Create a recursive function to calculate the factorial of a number.
+// Create a recursive function to calculate the Fibonacci sequence at a given index.
+// Create a recursive function to find the greatest common divisor (GCD) of two numbers.
+// Create a recursive function to check if a given string is a palindrome.
+// Create a recursive function to compute the power of a number (exponentiation).
+
+
+// Callbacks and Asynchronous Functions:
+
+// Create a function that accepts a callback function and calls it after a specific delay.
+// Create a function that simulates an asynchronous operation using setTimeout and a callback.
+// Create a function that fetches data from a remote server using the Fetch API and handles the response with a callback.
+// Create a function that reads a file asynchronously and processes its contents with a callback.
+// Create a function that uses Promises to handle asynchronous operations instead of callbacks.
+
+
+// Error Handling:
+
+// Create a function that throws an error with a custom message.
+// Create a function that catches an error and logs it to the console.
+// Create a function that reads a file asynchronously and handles errors using try-catch.
+// Create a function that fetches data from a remote server and handles both success and error cases using Promises.
+// Create a function that demonstrates the use of the "finally" block in a Promise.
+
+
+// Default Parameters and Rest Parameters:
+
+// Create a function that accepts a parameter with a default value.
+// Create a function that accepts a variable number of arguments using rest parameters and returns their sum.
+// Create a function that calculates the average of a variable number of arguments using rest parameters.
+// Create a function that accepts a callback function and a variable number of arguments, and it calls the callback with the arguments.
+// Create a function that accepts an array and a callback function, and it applies the callback to each element of the array.
+
+
+
+// Generator Functions:
+
+// Create a generator function that generates an infinite sequence of numbers starting from 1.
+// Create a generator function that yields values from an array one by one.
+// Create a generator function that generates a Fibonacci sequence up to a specified limit.
+// Create a generator function that combines two arrays element by element and yields the result.
+// Create a generator function that generates random numbers within a specified range.
+
+// Function Composition:
+
+// Create a function that takes two functions as arguments and returns a new function that applies both functions.
+// Create a function that composes multiple functions together, allowing you to chain function calls.
+// Create a function that takes an array of functions and returns a new function that applies them in sequence.
+// Create a function that memoizes the results of expensive function calls to improve performance.
+// Create a function that curries a given function, allowing you to call it with partial arguments.
+
+// Object Methods:
+
+// Create an object with a method that returns a greeting message.
+// Create an object with a method that calculates the area of a rectangle using its properties.
+// Create an object with a method that sorts an array of numbers stored as one of its properties.
+// Create an object with a method that converts a temperature from Celsius to Fahrenheit.
+// Create an object with a method that calculates the distance between two points with x and y coordinates.
+
+
+// Constructor Functions and Classes:
+
+// Create a constructor function for a Person with properties for name, age, and gender.
+// Create a class for a Book with properties for title, author, and publication year.
+// Create a class for a Car with properties for make, model, and year.
+// Create a constructor function for a BankAccount with properties for account number and balance.
+// Create a class for a Product with properties for name, price, and quantity.
+
+// Callbacks and Promises:
+
+// Create a function that uses a callback to simulate fetching data from a database.
+// Refactor the previous exercise to use Promises instead of callbacks.
+// Create a function that fetches data from multiple sources sequentially using Promises.
+// Create a function that fetches data from multiple sources concurrently using Promises.
+// Create a function that performs a series of asynchronous operations and waits for all of them to complete using Promise.all.
+
+// Async/Await:
+
+// Create an async function that fetches data from a remote server and logs the result.
+// Create an async function that reads multiple files concurrently and combines their contents.
+// Create an async function that performs a series of database operations sequentially using await.
+// Create an async function that handles errors using try-catch when fetching data.
+// Create an async function that demonstrates the use of the "finally" block with async/await.
+// These exercises cover a wide range of topics related to functions in JavaScript. Practice these exercises to strengthen your understanding and coding skills with JavaScript functions.
+

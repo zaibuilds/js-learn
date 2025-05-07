@@ -1,0 +1,150 @@
+Arrays Exercises
+
+Basic Array Operations:
+
+Create an empty array.
+Create an array with five elements.
+Access the first element of an array.
+Access the last element of an array.
+Add an element to the end of an array.
+Remove the last element from an array.
+Add an element to the beginning of an array.
+Remove the first element from an array.
+Check if an array is empty.
+Find the length of an array.
+Iterate over an array and print each element.
+Iterate over an array and print each element in reverse order.
+Concatenate two arrays.
+Clone an array.
+Create an array of numbers from 1 to 10.
+Create an array of even numbers from 2 to 20.
+Create an array of odd numbers from 1 to 19.
+
+Array Methods:
+
+Use push() to add an element to an array.
+Use pop() to remove an element from an array.
+Use unshift() to add an element to the beginning of an array.
+Use shift() to remove an element from the beginning of an array.
+Use indexOf() to find the index of a specific element in an array.
+Use lastIndexOf() to find the last index of a specific element in an array.
+Use includes() to check if an element exists in an array.
+Use slice() to create a new array from a portion of an existing array.
+Use splice() to add or remove elements from an array at a specific index.
+Use join() to convert an array into a string with a specified separator.
+Use toString() to convert an array into a comma-separated string.
+Use sort() to sort an array in ascending order.
+Use reverse() to reverse the order of elements in an array.
+Use map() to create a new array by applying a function to each element.
+Use filter() to create a new array with elements that meet a certain condition.
+Use reduce() to calculate the sum of all elements in an array.
+Use forEach() to iterate over an array without creating a new array.
+Use every() to check if all elements in an array meet a certain condition.
+Use some() to check if at least one element in an array meets a certain condition.
+Use find() to find the first element that meets a certain condition in an array.
+Use findIndex() to find the index of the first element that meets a certain condition.
+Use splice() to remove elements from an array based on a condition.
+
+Multi-dimensional Arrays:
+
+Create a 2D array (matrix).
+Access an element in a 2D array.
+Iterate over the elements of a 2D array using nested loops.
+Find the sum of all elements in a 2D array.
+Transpose a 2D array (convert rows to columns and vice versa).
+Check if a value exists in a 2D array.
+
+Array Sorting:
+
+Sort an array of strings in alphabetical order.
+Sort an array of numbers in descending order.
+Sort an array of objects by a specific property.
+Sort an array of objects by multiple properties.
+Implement a custom sorting function for an array.
+
+Array Filtering:
+
+Filter out even numbers from an array.
+Filter out strings longer than a certain length from an array of strings.
+Filter out objects that meet specific criteria from an array of objects.
+
+Array Transformation:
+
+Create a new array by doubling each element of an existing array.
+Create a new array by squaring each element of an existing array.
+Create a new array by converting strings to uppercase.
+Create a new array by extracting specific properties from objects in an array.
+Create a new array by concatenating sub-arrays within an array.
+
+Array Searching:
+
+Find the maximum value in an array of numbers.
+Find the minimum value in an array of numbers.
+Find the second-largest element in an array of numbers.
+Find the index of the largest element in an array of numbers.
+Find the frequency of a specific element in an array.
+Find the most common element in an array.
+
+Array Manipulation:
+
+Remove duplicate elements from an array.
+Rotate the elements of an array to the left by a certain number of positions.
+Rotate the elements of an array to the right by a certain number of positions.
+Partition an array into two arrays based on a condition.
+Implement a stack using an array (push and pop operations).
+Implement a queue using an array (enqueue and dequeue operations).
+
+Advanced Array Operations:
+
+Implement a binary search algorithm to find an element in a sorted array.
+Implement a binary search algorithm to find the index of an element in a sorted array.
+Implement a binary search algorithm to find the nearest element in a sorted array.
+Implement a merge sort algorithm to sort an array.
+Implement a quicksort algorithm to sort an array.
+
+Array Challenges:
+
+Find the longest subarray with consecutive elements.
+Find the longest subarray with a sum less than a specific value.
+Find the first non-repeating element in an array.
+Find the longest palindrome substring in an array of characters.
+Find the intersection of two arrays.
+Find the union of two arrays.
+
+Array Exercises with Strings:
+
+Find the longest word in an array of strings.
+Count the number of vowels in an array of strings.
+Check if an array of strings contains a specific substring.
+Remove whitespace from the beginning and end of each string in an array.
+
+Array Exercises with Objects:
+
+Create an array of objects and sort them by a specific property.
+Find the average value of a specific property in an array of objects.
+Group objects in an array by a specific property.
+Filter objects in an array based on multiple criteria.
+
+Array Exercises with Dates:
+
+Create an array of date objects and sort them in chronological order.
+Find the oldest date in an array of date objects.
+Calculate the difference between two dates in an array.
+
+Array Error Handling:
+
+Handle errors when accessing an element that is out of bounds in an array.
+Handle errors when using an undefined array.
+Handle errors when calling array methods on a non-array object.
+
+Array Performance:
+
+Measure the time it takes to perform a specific operation on a large array.
+Optimize the performance of a slow array operation.
+Compare the performance of different array manipulation techniques.
+
+Array Bonus Challenges:
+
+Implement a matrix multiplication algorithm using arrays.
+Solve a complex problem that involves multiple array operations.
+
